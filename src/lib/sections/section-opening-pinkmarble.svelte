@@ -9,21 +9,22 @@
   </div>
 
   <!-- Frame and Photo -->
-    <div class="relative w-full max-w-[480px] aspect-[3/4] mb-10">
-    <!-- Foto di bawah -->
+  <div class="relative w-full max-w-[480px] aspect-[3/4] mb-10">
+    <!-- Foto di bawah (absolut dan di tengah) -->
     <img
-        src="/pinkmarbleopeningImage.png"
-        alt="Couple"
-        class="absolute inset-0 w-[50%] h-[50%] object-[center_top] object-cover z-0"
+      src="/pinkmarbleopeningImage.png"
+      alt="Couple"
+      class="absolute top-1/2 left-1/2 w-[70%] h-[70%] object-cover rounded-full z-0 transform -translate-x-1/2 -translate-y-1/2"
     />
 
-    <!-- Frame di atas -->
+    <!-- Frame di atas (absolut dan di tengah) -->
     <img
-        src="/frame-pinkmarble.png"
-        alt="Frame"
-        class="relative z-10 w-full h-full object-contain"
+      src="/frame-pinkmarble.png"
+      alt="Frame"
+      class="absolute top-1/2 left-1/2 w-full h-full object-contain z-10 transform -translate-x-1/2 -translate-y-1/2"
     />
-    </div>
+  </div>
+
 
   <!-- Countdown -->
   <div class="flex gap-6 text-xl font-medium mb-10">
