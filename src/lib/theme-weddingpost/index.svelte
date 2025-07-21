@@ -10,11 +10,13 @@
   import Dresscode from '$lib/sections/section-dresscode-weddingpost.svelte';
   import Gallery from '$lib/sections/section-gallery-weddingpost.svelte';
   import Thanks from '$lib/sections/section-thanks-weddingpost.svelte';
+  import Groom from '$lib/sections/section-groom-weddingpost.svelte';
 </script>
 
 <Opening />
 <Quote />
 <Bride/>
+<Groom />
 <Story />
 <Event />
 <Maps />
