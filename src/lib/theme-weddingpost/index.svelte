@@ -1,15 +1,15 @@
 <script>
-  import Opening from '../sections/+opening.svelte';
-  import Quote from '../sections/+quote.svelte';
-  import Bride from '../sections/+bride.svelte';
-  import Story from '$lib/sections/+story.svelte';
-  import Event from '$lib/sections/+event.svelte';
-  import Maps from '$lib/sections/+maps.svelte';
-  import Gift from '$lib/sections/+gift.svelte';
-  import Livestream from '$lib/sections/+livestream.svelte';
-  import Dresscode from '$lib/sections/+dresscode.svelte';
-  import Gallery from '$lib/sections/+gallery.svelte';
-  import Thanks from '$lib/sections/+thanks.svelte';
+  import Opening from '../sections/section-opening-weddingpost.svelte';
+  import Quote from '../sections/section-quote-weddingpost.svelte';
+  import Bride from '../sections/section-bride-weddingpost.svelte';
+  import Story from '$lib/sections/section-story-weddingpost.svelte';
+  import Event from '$lib/sections/section-event-weddingpost.svelte';
+  import Maps from '$lib/sections/section-maps-weddingpost.svelte';
+  import Gift from '$lib/sections/section-gift-weddingpost.svelte';
+  import Livestream from '$lib/sections/section-livestream-weddingpost.svelte';
+  import Dresscode from '$lib/sections/section-dresscode-weddingpost.svelte';
+  import Gallery from '$lib/sections/section-gallery-weddingpost.svelte';
+  import Thanks from '$lib/sections/section-thanks-weddingpost.svelte';
 </script>
 
 <Opening />

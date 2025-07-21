@@ -1,5 +1,5 @@
 <script>
-    import LandingPage from '../sections/+landing.svelte';
+    import LandingPage from '../sections/section-landing-weddingpost.svelte';
 </script>
 
 <main>
