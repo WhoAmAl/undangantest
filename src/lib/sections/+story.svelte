@@ -1,5 +1,5 @@
-<div class="bg-gray-200 text-black font-serif w-full flex justify-center px-4">
-  <div class="w-full max-w-2xl border-x border-black p-6 text-center">
+<main class="text-black font-serif flex justify-center">
+  <div class="w-full max-w-2xl bg-gray-200 text-center border-x border-black p-4">
     <div class="border-t-4 border-black mb-0.5"></div>
     <div class="border-t-3 border-black mb-1"></div>
     <h2 class="text-4xl font-bold tracking-widest">OUR LOVE STORY</h2>
@@ -40,4 +40,4 @@
       </div>
     </div>
   </div>
-</div>
+</main>

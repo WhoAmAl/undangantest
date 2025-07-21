@@ -1,7 +1,7 @@
 <script>
-  import WeddingPost from '$lib/theme-weddingpost/index.svelte';
+	import Landingpage from '$lib/theme-weddingpost/landingpage.svelte';
 </script>
 
 <main>
-  <WeddingPost />
+  <Landingpage />
 </main>

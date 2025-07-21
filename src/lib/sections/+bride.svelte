@@ -1,5 +1,5 @@
-<main class="bg-gray-200 text-black font-serif flex justify-center">
-  <div class="w-full max-w-2xl bg-gray-200 text-center border-x border-black p-4">
+<main class="text-black font-serif flex justify-center">
+  <div class="bg-gray-200 w-full max-w-2xl text-center border-x border-black p-4">
 
     <!-- Double Border Header -->
     <div class="border-t-4 border-black mb-0.5"></div>

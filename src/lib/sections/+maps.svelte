@@ -1,5 +1,5 @@
-<section class="bg-gray-200 px-4">
-  <div class="mx-auto max-w-2xl text-center border-x border-black p-4">
+<main class="text-black font-serif flex justify-center">
+  <div class="w-full max-w-2xl bg-gray-200 text-center border-x border-black p-4">
     <!-- Judul -->
     <div class="border-t-4 border-black mb-0.5"></div>
     <div class="border-t-3 border-black mb-1"></div>
@@ -48,4 +48,4 @@
     </div>
 
   </div>
-</section>
+</main>

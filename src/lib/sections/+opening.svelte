@@ -7,7 +7,7 @@
   };
 </script>
 
-<main class="bg-gray-200 text-black font-serif flex justify-center">
+<main class="text-black font-serif flex justify-center">
   <div class="w-full max-w-2xl bg-gray-200 text-center border-x border-black p-4">
     <!-- Tanggal -->
     <div class="text-sm mb-2">12 Juni 2025</div>
