@@ -1,4 +1,4 @@
-  <div class="min-h-[100vh] w-full bg-[#f7f3f6] flex justify-center items-center">
+  <div class="min-h-[100vh] w-full flex justify-center items-center">
   <div class="w-full max-w-2xl bg-[#f7f3f6] text-center sm:border-x border-[#4b2e6a] p-0 sm:p-0 flex flex-col justify-between relative overflow-hidden" style="background-image: url('/bgvioletvintage.png'); min-height: 100vh; background-size: cover; background-position: center;">
     <!-- Bunga hias atas - diperbesar dan memenuhi dari kiri hingga hampir kanan -->
     <img src="bungatopdresscodevioletvintage.png" alt="" class="absolute top-0 left-0 w-[90%] sm:w-[80%] md:w-[75%] pointer-events-none select-none" />
@@ -29,15 +29,15 @@
         <!-- Gambar rekomendasi tema -->
         <div class="flex justify-center items-center space-x-3 sm:space-x-8">
             <!-- Frame kiri - gaun wanita -->
-            <div class="border-3 sm:border-4 border-[#4b2e6a] rounded-xl sm:rounded-2xl p-2 sm:p-4 bg-white shadow-lg">
-                <div class="w-20 h-26 sm:w-36 sm:h-44 md:w-44 md:h-52 bg-gray-300 rounded-md sm:rounded-lg overflow-hidden">
+            <div class="border-3 sm:border-4 border-[#4b2e6a] rounded-xl sm:rounded-2xl p-2 sm:p-4 shadow-lg">
+                <div class="w-20 h-26 sm:w-36 sm:h-44 md:w-44 md:h-52 rounded-md sm:rounded-lg overflow-hidden">
                     <img src="/women.png" alt="Women's dress recommendation" class="w-full h-full object-cover grayscale" />
                 </div>
             </div>
             
             <!-- Frame kanan - pakaian pria -->
-            <div class="border-3 sm:border-4 border-[#4b2e6a] rounded-xl sm:rounded-2xl p-2 sm:p-4 bg-white shadow-lg">
-                <div class="w-20 h-26 sm:w-36 sm:h-44 md:w-44 md:h-52 bg-gray-300 rounded-md sm:rounded-lg overflow-hidden">
+            <div class="border-3 sm:border-4 border-[#4b2e6a] rounded-xl sm:rounded-2xl p-2 sm:p-4 shadow-lg">
+                <div class="w-20 h-26 sm:w-36 sm:h-44 md:w-44 md:h-52 rounded-md sm:rounded-lg overflow-hidden">
                     <img src="/men.png" alt="Men's attire recommendation" class="w-full h-full object-cover grayscale" />
                 </div>
             </div>

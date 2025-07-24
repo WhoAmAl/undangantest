@@ -1,4 +1,4 @@
-<div class="min-h-[100vh] w-full bg-[#f7f3f6] flex justify-center items-center">
+<div class="min-h-[100vh] w-full flex justify-center items-center">
   <div class="w-full max-w-2xl bg-[#f7f3f6] text-center sm:border-x border-[#4b2e6a] p-0 sm:p-0 flex flex-col justify-between relative overflow-hidden" style="background-image: url('/bgvioletvintage.png'); min-height: 100vh; background-size: cover; background-position: center;">
     <!-- Bunga hias atas -->
     <img src="tulipthanksviolettevintage.png" alt="" class="absolute top-0 left-0 w-32 sm:w-40 md:w-56 lg:w-72 pointer-events-none select-none" />

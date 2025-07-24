@@ -1,4 +1,4 @@
-<div class="min-h-[100vh] w-full bg-[#f7f3f6] flex justify-center items-center">
+<div class="min-h-[100vh] w-full flex justify-center items-center">
   <div class="w-full max-w-2xl bg-[#f7f3f6] text-center sm:border-x border-[#4b2e6a] p-0 sm:p-0 flex flex-col justify-between relative overflow-hidden" style="background-image: url('/bgvioletvintage.png'); min-height: 100vh; background-size: cover; background-position: center;">
     <!-- Import Google Font Foglihten -->
     <style>
@@ -7,7 +7,7 @@
     </style>
        
     <!-- Area konten utama -->
-    <div class="flex flex-col my-auto space-y-3 sm:space-y-6 md:space-y-12 px-2 sm:px-3 md:px-4">
+    <div class="flex flex-col pt-15 space-y-3 sm:space-y-6 md:space-y-12 px-2 sm:px-3 md:px-4">
         <!-- Header THE GROOM -->
         <div class="text-center foglihten text-[#4b2e6a] tracking-[0.2em] sm:tracking-[0.25em] text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4 sm:mb-6">THE GROOM</div>
         
@@ -21,7 +21,7 @@
         </div>
         
         <!-- Nama Groom -->
-        <div class="text-center foglihten text-[#4b2e6a] tracking-[0.15em] sm:tracking-[0.18em] text-2xl sm:text-3xl md:text-4xl lg:text-5xl">NARUTO UZUMAKI</div>
+        <div class="text-center foglihten text-[#4b2e6a] tracking-[0.1em] sm:tracking-[0.1em] text-2xl sm:text-3xl md:text-4xl lg:text-5xl">NARUTO UZUMAKI</div>
            
         <!-- Info Orang Tua -->
         <div class="text-center foglihten text-[#4b2e6a] text-sm sm:text-base md:text-lg lg:text-xl -mt-1 sm:-mt-2">Son Of Mr. Minato and Mrs. Kushina</div>

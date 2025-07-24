@@ -22,6 +22,6 @@
 <Maps />
 <Gift />
 <Livestream />
-<Dresscode />
 <Gallery />
+<Dresscode />
 <Thanks />

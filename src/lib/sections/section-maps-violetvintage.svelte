@@ -1,4 +1,4 @@
-<div class="min-h-[100vh] w-full bg-[#f7f5f2] flex justify-center sm:px-2">
+<div class="min-h-[100vh] w-full flex justify-center sm:px-2">
   <div class="w-full max-w-2xl bg-[#f7f5f2] text-center sm:border-x border-[#4B217A] p-2 sm:p-4 flex flex-col justify-between relative" style="background-image: url('/bgvioletvintage.png'); min-height: 100vh;">
     <h2 class="text-2xl sm:text-4xl font-serif text-[#4B217A] tracking-widest mb-0 mt-0">LOCATION & RSVP</h2>
     <p class="text-[#4B217A] text-base sm:text-lg mb-0">
