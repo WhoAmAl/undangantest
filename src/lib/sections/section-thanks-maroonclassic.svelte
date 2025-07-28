@@ -15,5 +15,53 @@
 </section>
 
 <style>
-
+section {
+  min-height: 1195px;
+}
+@media (max-width: 640px) {
+  section {
+    min-height: 700px;
+    padding: 0;
+  }
+  .p-10 {
+    padding: 1.25rem !important;
+  }
+  h2 {
+    margin-top: 6.5rem !important;
+  }
+  h2 {
+    font-size: 2rem !important;
+    margin-bottom: 1.5rem !important;
+    /* margin-top overridden above for mobile */
+  }
+  p {
+    font-size: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 2rem !important;
+    line-height: 1.5rem !important;
+  }
+  .text-base, .text-lg, .sm\:text-lg {
+    font-size: 1rem !important;
+    margin-bottom: 1.25rem !important;
+    margin-top: 2rem !important;
+  }
+  .text-2xl, .sm\:text-3xl {
+    font-size: 1.25rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .flex-col.w-full.p-10 {
+    padding: 1.25rem !important;
+  }
+  .max-w-2xl {
+    max-width: 100vw !important;
+  }
+  .px-4 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .py-45 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+}
 </style>

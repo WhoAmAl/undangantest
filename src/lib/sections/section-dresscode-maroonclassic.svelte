@@ -1,5 +1,5 @@
 <section class="max-w-2xl mx-auto relative w-full bg-cover bg-center bg-no-repeat overflow-hidden min-h-[700px] sm:min-h-[1195px]" style="background-image: url('/backgrounddresscodemaroonclassic.png');">
-  <div class="bg-[#450A0A] absolute inset-4 sm:inset-12 z-10 rounded-[200px] p-6 sm:p-12 flex flex-col text-center text-white">
+  <div class="bg-[#450A0A] absolute inset-4 sm:inset-12 z-10 rounded-[130px] sm:rounded-[200px] p-6 sm:p-12 flex flex-col text-center text-white">
     
     <!-- Title -->
     <h2 class="text-2xl sm:text-4xl font-serif italic mb-8 sm:mb-12 tracking-wider mt-28">DRESSCODE</h2>
