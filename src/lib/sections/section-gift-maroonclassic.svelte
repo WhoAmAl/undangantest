@@ -78,7 +78,7 @@
 
     <!-- Wish Section -->
     <div class="text-left mb-6 sm:mb-8">
-      <p class="px-10 text-lg sm:text-xl md:text-2xl" style="color: #450A0A; font-family: 'Times New Roman', serif;">
+      <p class="sm:px-17 text-lg sm:text-xl md:text-2xl" style="color: #450A0A; font-family: 'Times New Roman', serif;">
         Send your best wish for our wedding day
       </p>
     </div>
