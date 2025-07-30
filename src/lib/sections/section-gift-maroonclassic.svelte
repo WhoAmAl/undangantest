@@ -1,6 +1,24 @@
 <script>
+  import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
   let senderName = '';
   let message = '';
+  let wishes = [
+    { name: "Sendvitation", message: "Selamat ya, bahagia selalu" },
+    { name: "Sendvitation2", message: "Semoga pernikahan kalian selalu penuh cinta dan berkah" },
+    { name: "DindaSaputra", message: "Turut berbahagia! Semoga langgeng dan selalu rukun" },
+    { name: "RamaYusuf", message: "Congratulations! Wishing you a lifetime of happiness together." },
+    { name: "TamuUndangan123", message: "Selamat menempuh hidup baru 🎉" },
+    { name: "NinaM", message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { name: "FikriAF", message: "Vivamus luctus urna sed urna ultricies ac tempor dui sagittis." },
+    { name: "GuestA", message: "Doa terbaik untuk kalian berdua. Semoga bahagia hingga akhir hayat." },
+    { name: "GuestB", message: "May your journey ahead be filled with love and laughter ❤️" },
+    { name: "DewiAnggraini", message: "Semoga jadi keluarga yang sakinah, mawaddah, warahmah." },
+    { name: "BayuSetiawan", message: "Lorem ipsum dolor sit amet, happy wedding pokoknya!" },
+    { name: "Sendvitation3", message: "Best wishes! ❤️💍🎉" },
+    { name: "AnantaRey", message: "Semoga cepat diberi momongan yaa 😄" },
+    { name: "Hamba Allah", message: "Selamat ya, semoga lancar sampai hari H!" },
+    { name: "TamuVirtual", message: "Nullam ut metus id sapien dictum hendrerit nec nec elit." }
+  ];
 </script>
 
 <section class="w-full min-h-screen px-4 sm:px-6 lg:px-8">
@@ -120,26 +138,18 @@
           </button>
         </div>
 
-        <!-- Send Invitation Text -->
-        <div class="text-left space-y-3 sm:space-y-4 md:space-y-6">
-          <div>
-            <h4 class="text-sm sm:text-base md:text-lg font-semibold text-white mb-1 sm:mb-1.5 md:mb-2" style="font-family: 'Cinzel', serif;">
-              SENDVITATION
-            </h4>
-            <p class="text-white/90 text-xs sm:text-xs md:text-sm" style="font-family: 'Times New Roman', serif;">
-              Selamat ya, bahagia selalu
-            </p>
-          </div>
-          
-          <div>
-            <h4 class="text-sm sm:text-base md:text-lg font-semibold text-white mb-1 sm:mb-1.5 md:mb-2" style="font-family: 'Cinzel', serif;">
-              SENDVITATION
-            </h4>
-            <p class="text-white/90 text-xs sm:text-xs md:text-sm" style="font-family: 'Times New Roman', serif;">
-              Selamat ya, bahagia selalu
-            </p>
-          </div>
-        </div>
+        <!-- Wishes List -->
+        <ScrollArea
+          class="h-[200px] w-full rounded-md border p-4"
+          orientation="both"
+        >
+            {#each wishes as wish}
+              <div class="text-left">
+                <h3 class="font-semibold text-white">{wish.name}</h3>
+                <p class="italic text-gray-200">{wish.message}</p>
+              </div>
+            {/each}
+        </ScrollArea>
       </div>
     </div>
   </div>

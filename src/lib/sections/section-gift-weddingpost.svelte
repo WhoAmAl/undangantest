@@ -1,10 +1,23 @@
-<script>
+<script lang="ts">
+  import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
   let senderName = '';
   let message = '';
   let wishes = [
     { name: "Sendvitation", message: "Selamat ya, bahagia selalu" },
-    { name: "Sendvitation", message: "Selamat ya, bahagia selalu" },
-    { name: "Sendvitation", message: "Selamat ya, bahagia selalu" }
+    { name: "Sendvitation2", message: "Semoga pernikahan kalian selalu penuh cinta dan berkah" },
+    { name: "DindaSaputra", message: "Turut berbahagia! Semoga langgeng dan selalu rukun" },
+    { name: "RamaYusuf", message: "Congratulations! Wishing you a lifetime of happiness together." },
+    { name: "TamuUndangan123", message: "Selamat menempuh hidup baru 🎉" },
+    { name: "NinaM", message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { name: "FikriAF", message: "Vivamus luctus urna sed urna ultricies ac tempor dui sagittis." },
+    { name: "GuestA", message: "Doa terbaik untuk kalian berdua. Semoga bahagia hingga akhir hayat." },
+    { name: "GuestB", message: "May your journey ahead be filled with love and laughter ❤️" },
+    { name: "DewiAnggraini", message: "Semoga jadi keluarga yang sakinah, mawaddah, warahmah." },
+    { name: "BayuSetiawan", message: "Lorem ipsum dolor sit amet, happy wedding pokoknya!" },
+    { name: "Sendvitation3", message: "Best wishes! ❤️💍🎉" },
+    { name: "AnantaRey", message: "Semoga cepat diberi momongan yaa 😄" },
+    { name: "Hamba Allah", message: "Selamat ya, semoga lancar sampai hari H!" },
+    { name: "TamuVirtual", message: "Nullam ut metus id sapien dictum hendrerit nec nec elit." }
   ];
 
   const copyToClipboard = (text) => {
@@ -97,12 +110,15 @@
   </div>
 
   <!-- Wishes List -->
-  <div class="border-t border-black pt-6 space-y-6 text-left">
-    {#each wishes as wish}
-      <div>
-        <h3 class="font-semibold">{wish.name}</h3>
-        <p class="italic text-gray-700">{wish.message}</p>
-      </div>
-    {/each}
-  </div>
+  <ScrollArea
+    class="h-[200px] w-[350px] rounded-md border p-4"
+    orientation="both"
+  >
+      {#each wishes as wish}
+        <div class="text-left">
+          <h3 class="font-semibold">{wish.name}</h3>
+          <p class="italic text-gray-700">{wish.message}</p>
+        </div>
+      {/each}
+  </ScrollArea>
 </div>
