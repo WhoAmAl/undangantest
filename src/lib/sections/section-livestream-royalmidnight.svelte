@@ -64,26 +64,26 @@
   </div>
      
   <!-- CONTENT SECTION -->
-    <div class="relative z-20 flex flex-col w-full max-w-md mx-auto mt-70 px-6 py-8 translate-x-27  ">
-        <h2 class="text-white text-right text-2xl md:text-3xl font-serif tracking-widest font-semibold mb-4">LIVE STREAM</h2>
-        <p class="text-white text-right text-base md:text-lg leading-relaxed mb-8">
+    <div class="relative z-20 flex flex-col w-full max-w-md mx-auto mt-28 sm:mt-70 px-6 sm:px-6 py-8 sm:translate-x-27">
+        <h2 class="text-white text-right text-base md:text-3xl font-serif tracking-widest font-semibold mb-1 sm:mb-4">LIVE STREAM</h2>
+        <p class="text-white text-right text-[10px] md:text-lg leading-relaxed mb-8 ml-24 sm:ml-0">
         This live stream is our way of extending our arms across the globe to embrace each of you virtually, allowing all of you to witness, participate in, and celebrate our joy in real-time, no matter how many miles may separate us. This live stream is our way of extending our arms across the globe to embrace each of you virtually, allowing all of you to witness, participate in, and celebrate our joy in real-time, no matter how many miles may separate us. 
         </p>
-        <div class="flex flex-col md:flex-row justify-center items-center gap-8 w-full">
+        <div class="flex flex-row justify-center items-center gap-8 w-full ml-10 sm:ml-0">
           <!-- Instagram -->
           <div class="flex flex-col">
-            <div class="flex flex-col text-center justify-center items-center gap-1 mb-2">
-              <img src="/instagram.png" alt="Instagram" class="w-7 h-7 mx-auto" />
-              <span class="text-white text-center text-base md:text-lg">@hinata_hyuga</span>
+            <div class="flex flex-col text-center justify-center items-center gap-0 mb-0.5">
+              <img src="/instagram.png" alt="Instagram" class="w-3 h-3 sm:w-7 sm:h-7 mx-auto" />
+              <span class="text-white text-center text-[8px] sm:text-base md:text-lg">@hinata_hyuga</span>
             </div>
-            <button class="bg-white text-[#172554] rounded-full px-4 py-1 text-sm font-medium shadow-md hover:bg-gray-100 transition">
+            <button class="bg-white text-[#172554] rounded-full px-0.5 py-0.5 text-[8px] sm:px-4 sm:py-1 sm:text-sm shadow-md hover:bg-gray-100 transition min-h-5 min-w-16 sm:min-h-0 sm:min-w-0">
               Join Live Streaming
             </button>
           </div>
           <!-- Zoom Info -->
           <div class="flex flex-col items-center md:items-start">
-            <img src="/zoom.png" alt="Zoom" class="w-7 h-7 mb-5 mx-auto" />
-            <div class="text-white text-sm md:text-base leading-tight text-center md:text-left">
+            <img src="/zoom.png" alt="Zoom" class="w-3 h-3 sm:w-7 sm:h-7 mb-1 sm:mb-5 mx-auto" />
+            <div class="text-white text-[8px] sm:text-sm md:text-base leading-tight text-center md:text-left">
               ID Meeting : 123456789<br />
               Password : hariBahagia
             </div>

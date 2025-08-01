@@ -1,4 +1,4 @@
-<div class="bg-[#172554] max-w-2xl min-h-[880px] mx-auto flex flex-col relative overflow-hidden">
+<div class="bg-[#172554] max-w-2xl min-h-screen sm:min-h-[880px] mx-auto flex flex-col relative overflow-hidden">
     <!-- Bunga putih bawah kiri -->
     <img 
         src="/bungathanksroyalmidnight.png" 
@@ -9,18 +9,19 @@
     />
 
     <!-- Kupu-kupu kiri bawah -->
-    <div class="absolute z-30" style="left:38px; bottom:44\0px;">
-        <div class="absolute -z-10 left-1/2 top-1/2 w-[80px] h-[80px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-yellow-300 opacity-40 blur-2xl"></div>
+    <div class="absolute z-30 -left-[10px] sm:left-[10px] bottom-[190px] sm:bottom-[440px]" id="left-butterfly-thanks">
+        <div class="absolute -z-10 sm:left-1/2 sm:top-1/2 w-[80px] h-[80px] sm:-translate-x-1/2 sm:-translate-y-1/2 rounded-full blur-2xl"></div>
         <img src="/leftbutterflythanksroyalmidnight.png" alt="Kupu-kupu kiri" class="w-full h-full select-none pointer-events-none" draggable="false" />
     </div>
 
     <!-- Kupu-kupu kanan atas -->
-    <div class="absolute z-30" style="right:38px; top:5px;">
-        <div class="absolute -z-10 left-1/2 top-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 rounded-full bg-yellow-300 opacity-40 blur-2xl"></div>
+    <div class="absolute z-30 right-[-30px] sm:right-[40px] sm:top-[5px]">
+        <div class="absolute -z-10 left-1/2 top-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 rounded-full blur-2xl"></div>
         <img src="/rightbutterflythanksroyalmidnight.png" alt="Kupu-kupu kanan" class="w-full h-full select-none pointer-events-none" draggable="false" />
     </div>
 
     <svg
+
         class="absolute left-0 bottom-0 w-full h-auto z-20"
         viewBox="0 0 672 881"
         fill="none"
@@ -80,18 +81,18 @@
     </svg>
 
         <!-- Konten utama -->
-    <div class="relative z-30 flex flex-col items-center justify-center text-center px-15 pt-20 pb-0 w-full">
-        <h2 class="text-white text-[2.1rem] tracking-[0.5em] font-semibold mb-10" style="letter-spacing:0.25em;">THANK YOU</h2>
-        <div class="text-white text-lg font-[400] leading-relaxed max-w-2xl mb-12" style="font-family: 'Cormorant Garamond', serif;">
+    <div class="relative z-30 flex flex-col items-center justify-center text-center px-8 sm:px-15 pt-20 pb-0 w-full">
+        <h2 class="text-white text-[14px] sm:text-[2.1rem] tracking-[0.5em] font-semibold mb-10" style="letter-spacing:0.25em;">THANK YOU</h2>
+        <div class="text-white text-[10px] sm:text-lg font-[400] leading-relaxed max-w-2xl mb-12" style="font-family: 'Cormorant Garamond', serif;">
             From the bottom of our hearts, we thank you for sharing in
             our joy and celebration. Your presence and warm wishes
             have made our special day truly memorable. We are blessed
             to have such wonderful people in our lives.
         </div>
-        <div class="text-white text-lg font-bold mb-10" style="font-family: 'Cormorant Garamond', serif; letter-spacing:0.02em;">
+        <div class="text-white text-[10px] sm:text-lg font-bold mb-10" style="font-family: 'Cormorant Garamond', serif; letter-spacing:0.02em;">
             WITH LOVE AND THANKS
         </div>
-        <div class="text-white text-[2rem] font-[400] italic" style="font-family: 'Dancing Script', cursive;">
+        <div class="text-white sm:text-[2rem] font-[400] italic" style="font-family: 'Dancing Script', cursive;">
             Hinata &amp; Naruto
         </div>
     </div>
