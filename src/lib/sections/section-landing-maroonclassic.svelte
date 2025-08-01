@@ -45,7 +45,7 @@
 			<!-- Button -->
 			<button 
 				on:click={handleRedirect}
-				class="bg-white text-red-900 border-none px-8 py-3 rounded-2xl text-sm font-medium tracking-wider cursor-pointer transition-all duration-300 mb-6 shadow-lg hover:bg-gray-100 hover:-translate-y-1 hover:shadow-xl active:translate-y-0 -translate-y-[130px] sm:-translate-y-[20px]" 
+				class="bg-white text-red-900 border-none px-8 py-3 rounded-2xl text-sm font-medium tracking-wider cursor-pointer transition-all duration-300 mb-6 shadow-lg hover:bg-gray-100 hover:shadow-xl -translate-y-[130px] sm:-translate-y-[20px]" 
 				style="font-family: 'Justink', cursive;"
 			>
 				Open Invitation

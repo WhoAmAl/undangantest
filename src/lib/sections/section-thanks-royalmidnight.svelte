@@ -1,24 +1,8 @@
-<div class="bg-[#172554] max-w-2xl min-h-screen sm:min-h-[880px] mx-auto flex flex-col relative overflow-hidden">
-    <!-- Bunga putih bawah kiri -->
-    <img 
-        src="/bungathanksroyalmidnight.png" 
-        alt="Bunga bawah kiri" 
-        class="absolute select-none pointer-events-none z-10"
-        style="left:0; bottom:-6px; width:93%; transform:translate(0,0);"
-        draggable="false" 
-    />
 
-    <!-- Kupu-kupu kiri bawah -->
-    <div class="absolute z-30 -left-[10px] sm:left-[10px] bottom-[190px] sm:bottom-[440px]" id="left-butterfly-thanks">
-        <div class="absolute -z-10 sm:left-1/2 sm:top-1/2 w-[80px] h-[80px] sm:-translate-x-1/2 sm:-translate-y-1/2 rounded-full blur-2xl"></div>
-        <img src="/leftbutterflythanksroyalmidnight.png" alt="Kupu-kupu kiri" class="w-full h-full select-none pointer-events-none" draggable="false" />
-    </div>
 
-    <!-- Kupu-kupu kanan atas -->
-    <div class="absolute z-30 right-[-30px] sm:right-[40px] sm:top-[5px]">
-        <div class="absolute -z-10 left-1/2 top-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 rounded-full blur-2xl"></div>
-        <img src="/rightbutterflythanksroyalmidnight.png" alt="Kupu-kupu kanan" class="w-full h-full select-none pointer-events-none" draggable="false" />
-    </div>
+
+
+<div class="bg-[#172554] max-w-2xl min-h-screen lg:min-h-[1010px] sm:min-h-[880px] mx-auto flex flex-col relative overflow-hidden">
 
     <svg
 
@@ -79,10 +63,33 @@
             </filter>
         </defs>
     </svg>
+    <!-- Bunga putih bawah kiri -->
+    <img 
+        src="/bungathanksroyalmidnight.png" 
+        alt="Bunga bawah kiri" 
+        class="absolute select-none pointer-events-none z-10"
+        style="left:0; bottom:-6px; width:93%; transform:translate(0,0);"
+        draggable="false" 
+    />
+
+    <!-- Kupu-kupu kiri bawah -->
+    <div class="absolute z-30 -left-[10px] sm:left-[10px] bottom-[190px] sm:bottom-[440px]" id="left-butterfly-thanks">
+        <div class="absolute -z-10 sm:left-1/2 sm:top-1/2 w-[80px] h-[80px] sm:-translate-x-1/2 sm:-translate-y-1/2 rounded-full blur-2xl"></div>
+        <img src="/leftbutterflythanksroyalmidnight.png" alt="Kupu-kupu kiri" class="w-full h-full select-none pointer-events-none" draggable="false" />
+    </div>
+
+    <!-- Kupu-kupu kanan atas -->
+    <div class="absolute z-30 right-[-30px] sm:right-[40px] sm:top-[5px]">
+        <div class="absolute -z-10 left-1/2 top-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 rounded-full blur-2xl"></div>
+        <img src="/rightbutterflythanksroyalmidnight.png" alt="Kupu-kupu kanan" class="w-full h-full select-none pointer-events-none" draggable="false" />
+    </div>
+
+    
 
         <!-- Konten utama -->
     <div class="relative z-30 flex flex-col items-center justify-center text-center px-8 sm:px-15 pt-20 pb-0 w-full">
         <h2 class="text-white text-[14px] sm:text-[2.1rem] tracking-[0.5em] font-semibold mb-10" style="letter-spacing:0.25em;">THANK YOU</h2>
+        
         <div class="text-white text-[10px] sm:text-lg font-[400] leading-relaxed max-w-2xl mb-12" style="font-family: 'Cormorant Garamond', serif;">
             From the bottom of our hearts, we thank you for sharing in
             our joy and celebration. Your presence and warm wishes
