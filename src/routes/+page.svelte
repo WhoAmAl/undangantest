@@ -1,4 +1,5 @@
 <script>
+  import Landingpageemerald from '$lib/theme-emerald/landingpage.svelte'; 
 	import Landingpagepinkmarble from '$lib/theme-pinkmarble/landingpage.svelte';
   import Landingpageweddingpost from '$lib/theme-weddingpost/landingpage.svelte';
   import Landingpagevioletvintage from '$lib/theme-violetvintage/landingpage.svelte';
@@ -8,6 +9,7 @@
 </script>
 
 <main>
+  <Landingpageemerald />
   <Landingpagepinkcherish />
   <Landingpageroyalmidnight />
   <Landingpagemaroonclassic />
