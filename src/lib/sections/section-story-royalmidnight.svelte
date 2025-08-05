@@ -33,7 +33,7 @@
     import type { CarouselAPI } from "$lib/components/ui/carousel/context.js";
 	import type { EmblaCarouselSvelteType } from "embla-carousel-svelte";
     let carouselapi = $state<CarouselAPI>();
-    const count = $derived(api ? api.scrollSnapList().length : 0);
+    // const count = $derived(api ? api.scrollSnapList().length : 0);
     let current = $state(0);
     $effect(() => {
     if (carouselapi) {
@@ -88,7 +88,7 @@
                         {index === current - 1
                             ? 'bg-[#FBBF24] scale-110'
                             : 'bg-white hover:bg-gray-400 hover:scale-105'}"
-                    onclick={() => api && api.scrollTo(index)}
+                    onclick={() => carouselapi && carouselapi.scrollTo(index)}
                     aria-label={`Go to story ${index + 1}`}
                 ></button>
             {/each}

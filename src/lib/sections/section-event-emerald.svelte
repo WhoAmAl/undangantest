@@ -14,16 +14,16 @@
 
   <!-- Konten Save The Date -->
   <div class="absolute z-20 flex flex-col items-center w-full left-0 right-0 top-2">
-    <h2 class="font-cursive text-5xl md:text-6xl text-[#F6A623] font-bold mb-23 mt-5 tracking-wide text-center">Save The Date</h2>
+    <h2 class="font-cursive text-lg md:text-3xl text-[#CA8A04] mb-12 sm:mb-23 mt-5 tracking-wide text-center"  style="font-family: 'Emotional Use', cursive;">Save The Date</h2>
 
-    <div class="w-full flex flex-col items-center gap-16">
+    <div class="w-full flex flex-col items-center gap-3 sm:gap-22" style="font-family: 'Oblata-Regular', serif;">
       <!-- Wedding Ceremony -->
       <div class="flex flex-col items-center">
-        <div class="text-[#F6A623] text-3xl font-semibold mb-1">Wedding Ceremony</div>
+        <div class="text-[#CA8A04] text-[15px] sm:text-2xl mb-1" style="font-family: 'Caslon Regular', serif;">Wedding Ceremony</div>
         <div class="mb-1">
-          <img src="/ringemerald.png" alt="Wedding Ring" class="w-20 h-20 object-contain" loading="lazy" />
+          <img src="/ringemerald.png" alt="Wedding Ring" class="w-8 h-8 sm:w-20 sm:h-20 object-contain" loading="lazy" />
         </div>
-        <div class="text-white text-center text-xl leading-snug">
+        <div class="text-[#FEF3C7] text-center text-[13px] sm:text-xl leading-snug">
           Saturday, 05 July 2027<br />
           Pukul : 09.00-11.00
         </div>
@@ -31,11 +31,11 @@
 
       <!-- Wedding Party -->
       <div class="flex flex-col items-center mt-0.5">
-        <div class="text-[#F6A623] text-3xl font-semibold mb-1">Wedding Party</div>
+        <div class="text-[#CA8A04] text-[15px] sm:text-2xl mb-1" style="font-family: 'Caslon Regular', serif;">Wedding Party</div>
         <div class="mb-1">
-          <img src="/beeremerald.png" alt="Wedding Party" class="w-20 h-20 object-contain" loading="lazy" />
+          <img src="/beeremerald.png" alt="Wedding Party" class="w-8 h-8 sm:w-20 sm:h-20 object-contain" loading="lazy" />
         </div>
-        <div class="text-white text-center text-xl leading-snug">
+        <div class="text-[#FEF3C7] text-center text-[13px] sm:text-xl leading-snug">
           Saturday, 05 July 2027<br />
           Pukul : 11.00-17.00
         </div>
@@ -43,22 +43,22 @@
 
       <!-- Venue -->
       <div class="flex flex-col items-center mt-2">
-        <div class="text-[#F6A623] text-3xl font-bold mb-1 text-center">GRAND PLAZA HOTEL</div>
-        <div class="text-white text-center text-xl leading-snug mb-2">
-          Jendral Sudirman street Kav 52-53, Kebayoran<br />Baru, Senayan, Jakarta
+        <div class="text-[#CA8A04] text-[15px] sm:text-2xl mb-1 text-center" style="font-family: 'Caslon Regular', serif;">GRAND PLAZA HOTEL</div>
+        <div class="text-[#FEF3C7] text-center text-[13px] sm:text-xl leading-snug mb-2 px-11 sm:px-30">
+          Jendral Sudirman street Kav 52-53, Kebayoran Baru, Senayan, Jakarta
         </div>
       </div>
 
       <!-- Buttons -->
       <div class="flex flex-col gap-2 items-center mx-auto mt-1">
-        <a href="https://maps.google.com/?q=GRAND+PLAZA+HOTEL+Jendral+Sudirman+street+Kav+52-53+Kebayoran+Baru+Senayan+Jakarta" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 bg-[#042F2E] bg-opacity-90 text-[#FEF3C7] rounded-lg py-4 px-8 text-xl font-bold shadow hover:bg-[#064E3B] transition w-auto min-w-fit">
-          <img src="/mappinemerald.png" alt="Google Maps" class="w-7 h-7 object-contain" loading="lazy" />
+        <button type="button" class="flex items-center justify-center gap-2 bg-[#042F2E] bg-opacity-90 text-[#FEF3C7] rounded-[10px] sm:rounded-2xl px-2 py-1 sm:py-2.5 sm:px-4 text-[11px] sm:text-xl shadow hover:bg-[#064E3B] transition w-auto min-w-fit font-light">
+          <img src="/mappinemerald.png" alt="Google Maps" class="w-4 h-4 sm:w-7 sm:h-7 object-contain" loading="lazy" />
           Google Maps
-        </a>
-        <a href="#" class="flex items-center justify-center gap-2 bg-[#042F2E] bg-opacity-90 text-[#FEF3C7] rounded-lg py-4 px-8 text-xl font-bold shadow hover:bg-[#064E3B] transition w-auto min-w-fit">
-          <img src="/calendariconemerald.png" alt="Add to Calender" class="w-7 h-7 object-contain" loading="lazy" />
+        </button>
+        <button type="button" class="flex items-center justify-center gap-2 bg-[#042F2E] bg-opacity-90 text-[#FEF3C7] rounded-[10px] sm:rounded-2xl px-2 py-1 sm:py-2.5 sm:px-4 text-[11px]  sm:text-xl shadow hover:bg-[#064E3B] transition w-auto min-w-fit font-light">
+          <img src="/calendariconemerald.png" alt="Add to Calender" class="w-4 h-4 sm:w-7 sm:h-7 object-contain" loading="lazy" />
           Add to Calender
-        </a>
+        </button>
       </div>
     </div>
   </div>

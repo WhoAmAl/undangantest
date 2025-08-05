@@ -8,7 +8,7 @@
 <div class="relative w-full flex flex-col items-center justify-start pt-8 pb-12 max-w-2xl mx-auto bg-[#042F2E] px-4 md:px-10">
   <!-- Judul Atas -->
   <div class="w-full flex flex-col items-center mb-6">
-    <span class="text-[40px] font-bold text-[#F6C26B] font-cursive mt-4 mb-2">The Groom</span>
+    <span class="text-[30px] sm:text-[40px] text-[#CA8A04] mt-4 mb-2" style="font-family: 'Emotional Use', cursive;">The Groom</span>
   </div>
   <!-- Foto utama dengan frame -->
   <div class="relative w-full aspect-[588/791] mb-8 max-w-[95vw] mx-[15px]">
@@ -33,16 +33,15 @@
     </svg>
   </div>
   <!-- Nama dan keterangan -->
-  <div class="flex flex-col items-center mt-2">
-    <span class="text-[36px] font-serif text-[#FDF6E9] font-semibold mb-2 tracking-wide">NARUTO UZUMAKI</span>
-    <span class="text-[22px] font-serif text-[#F6C26B] mb-6 tracking-wide">Son Of Mr.Minato Namikaze</span>
-    <a
-      href="https://instagram.com/hinata_hyuga"
-      target="_blank"
-      class="flex items-center gap-2 bg-[#1A4D44] rounded-xl px-4 py-2 text-[#FDF6E9] text-lg font-medium shadow-md"
+  <div class="flex flex-col items-center sm:items-center mt-2" style="font-family: 'Oblata-Regular', serif;">
+    <span class="text-[20px] sm:text-[36px] text-[#FEF3C7] mb-2 tracking-wide text-left sm:text-center" style="font-family: 'Caslon Regular', serif;">NARUTO UZUMAKI</span>
+    <span class="text-[14px] sm:text-[28px] text-[#CA8A04] mb-6 tracking-wide text-left sm:text-center">Son of Mr. Minato and Mrs. Kushina</span>
+    <button
+      type="button"
+      class="flex items-center bg-[#1A4D44] rounded-[8px] sm:rounded-xl px-2 py-1 sm:py-2 text-[#FEF3C7] text-[12px] sm:text-lg font-medium shadow-md w-fit"
     >
       <img src="/instagramemerald.png" alt="Instagram" class="w-6 h-6" />
-      @uzu_naruto
-    </a>
+      uzu_naruto
+    </button>
   </div>
 </div>

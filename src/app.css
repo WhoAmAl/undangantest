@@ -246,3 +246,52 @@
   font-weight: 900;
   font-style: italic;
 }
+
+@font-face {
+  font-family: 'Emotional Use';
+  src: url('/fonts/Emotional-Use.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oblata-Regular';
+  src: url('/fonts/Oblata-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playball';
+  src: url('/fonts/Playball.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caslon Bold';
+  src: url('/fonts/Libre-Caslon/LibreCaslonText-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caslon Italic';
+  src: url('/fonts/Libre-Caslon/LibreCaslonText-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caslon Regular';
+  src: url('/fonts/Libre-Caslon/LibreCaslonText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Caslon';
+  src: url('/fonts/Libre-Caslon/LibreCaslonText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

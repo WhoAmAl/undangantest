@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
   let wishes = [
     { name: "Sendvitation", message: "Selamat ya, bahagia selalu" },

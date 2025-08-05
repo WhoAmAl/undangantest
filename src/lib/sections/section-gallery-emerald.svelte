@@ -1,14 +1,10 @@
-<script lang="ts">
-  import * as Carousel from "$lib/components/ui/carousel/index.js";
-</script>
-
-<section class="bg-[#042F2E] min-h-screen py-10 p-5 flex flex-col items-center max-w-2xl mx-auto">
-  <h2 class="text-[2.5rem] font-bold text-[#F6B21B] mb-8 font-cursive tracking-wide text-center">Our Gallery</h2>
+<section class="bg-[#042F2E] py-10 p-5 flex flex-col items-center max-w-2xl mx-auto">
+  <h2 class="text-[28px] sm:text-[36px] text-[#CA8A04] mb-8 font-cursive tracking-wide text-center" style="font-family: 'Emotional Use', cursive;">Our Gallery</h2>
   <div class="w-full flex justify-center mb-8 relative">
     <img
       src="/galleryvideoemerald.jpg"
       alt="Gallery Cover"
-      class="w-[90vw] max-w-3xl h-[320px] object-cover rounded-lg shadow-lg border-4 border-[#07332E]"
+      class="w-[90vw] max-w-3xl h-[200px] sm:h-[320px] object-cover shadow-lg"
     />
     <button
       class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-transparent rounded-full p-4 flex items-center justify-center transition"
@@ -22,27 +18,17 @@
     </button>
   </div>
   <div class="w-full flex flex-col items-center">
-    <Carousel.Root class="w-full max-w-xl mb-8">
-      <Carousel.Content>
-        {#each Array(5) as _, i (i)}
-          <Carousel.Item class="pl-1 basis-1/3.5 md:basis-1/2 lg:basis-1/3">
-            <div class="flex h-[220px] w-[150px] sm:h-[280px] sm:w-full items-center justify-center p-0 overflow-hidden shadow">
-              <img src="/gallerycommonemerald.jpg" alt={`Gallery Photo ${i+1}`} class="w-full h-full object-cover rounded-b-[40px] border-2 border-[#07332E]" />
-            </div>
-          </Carousel.Item>
-        {/each}
-      </Carousel.Content>
-    </Carousel.Root>
-    <Carousel.Root class="w-full max-w-xl">
-      <Carousel.Content>
-        {#each Array(5) as _, i (i)}
-          <Carousel.Item class="pl-1 basis-1/3.5 md:basis-1/2 lg:basis-1/3">
-            <div class="flex h-[220px] w-[150px] sm:h-[280px] sm:w-full items-center justify-center p-0 overflow-hidden shadow">
-              <img src="/gallerycommonemerald.jpg" alt={`Gallery Photo ${i+6}`} class="w-full h-full object-cover rounded-b-[40px] border-2 border-[#07332E]" />
-            </div>
-          </Carousel.Item>
-        {/each}
-      </Carousel.Content>
-    </Carousel.Root>
+    <svg width="0" height="0" style="position:absolute">
+      <clipPath id="photo-clip" clipPathUnits="objectBoundingBox">
+        <path d="M0,0 H1 V0.856 C0.613,1 0.394,1 0,0.856 Z" />
+      </clipPath>
+    </svg>
+    <div class="w-full max-w-xl grid grid-cols-4 gap-6">
+      {#each Array(8) as _, i (i)}
+        <div class="flex h-[110px] w-full sm:h-[220px] items-center justify-center p-0 overflow-visible">
+          <img src="/gallerycommonemerald.jpg" alt={`Gallery Photo Static ${i+1}`} class="w-full h-full object-cover" style="clip-path: url(#photo-clip); -webkit-clip-path: url(#photo-clip); background: none; box-shadow: none;" />
+        </div>
+      {/each}
+    </div>
   </div>
 </section>
