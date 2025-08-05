@@ -17,7 +17,7 @@
   </defs>
 </svg>
 
-<div class="relative min-h-screen bg-[#042F2E] flex flex-col max-w-2xl mx-auto">
+<div class="relative bg-[#042F2E] flex flex-col max-w-2xl mx-auto">
   <div class="absolute top-0 left-0 w-full" style="z-index:1;">
     <img
       src="/livestreamemerald.png"
@@ -29,7 +29,7 @@
   </div>
 
   <!-- Konten Livestream -->
-  <div class="flex flex-col items-center justify-center flex-1 pt-[380px] sm:pt-[565px] pb-8 px-10 text-center relative z-10">
+  <div class="flex flex-col items-center justify-center flex-1 pt-[380px] sm:pt-[565px] md:pt-[640px] pb-8 px-10 text-center relative z-10">
   <h2 class="text-2xl sm:text-4xl text-[#CA8A04] mb-9" style="font-family: 'Emotional Use', cursive;">Live Stream</h2>
     <p class="text-[12px] sm:text-[22px] text-[#FEF3C7] mb-10 max-w-xl mx-auto" style="font-family: 'Oblata-Regular', sans-serif;">
       Distance won't keep us apart on our special day. We've arranged a live stream so that all our loved ones can witness our joy, no matter where you are.

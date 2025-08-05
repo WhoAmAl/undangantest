@@ -19,7 +19,7 @@
   ];
 </script>
 
-<div class="min-h-screen bg-[#0a2d2b] flex flex-col items-center py-10 px-4 max-w-2xl mx-auto">
+<div class="bg-[#0a2d2b] flex flex-col items-center py-10 px-4 max-w-2xl mx-auto">
   <div class="w-full max-w-xl flex flex-col items-center">
     <h2 class="text-[30px] sm:text-[40px] font-cursive text-[#CA8A04] mb-9 mt-7" style="font-family: 'Emotional Use', cursive;">Gift &amp; Wish</h2>
     <p class="text-center text-[#FEF3C7] text-lg mb-8 mt-2 font-light">

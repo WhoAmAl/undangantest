@@ -1,6 +1,6 @@
 <div class="bg-[#042F2E] flex flex-col items-center justify-center py-12 px-4 sm:px-18 max-w-2xl mx-auto min-h-screen relative" style="background-image: url('/eventemerald.png'); background-size: cover; background-position: center; bg-repeat: no-repeat;">
   <svg
-    class="absolute left-1/2 top-0 w-auto h-[95%] max-h-[calc(100%-20px)] z-10 -translate-x-1/2 opacity-85"
+    class="absolute left-1/2 top-0 w-auto h-[95%] max-h-[calc(100%-20px)] md:h-[47.5%] md:max-h-[calc(50%-10px)] lg:h-[95%] lg:max-h-[calc(100%-20px)] z-10 -translate-x-1/2 opacity-85"
     viewBox="0 0 588 1120"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
