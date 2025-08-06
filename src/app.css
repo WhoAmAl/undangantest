@@ -124,6 +124,13 @@
 }
 
 @font-face {
+  font-family: 'Foglihten';
+  src: url('/fonts/Foglihten-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Foglihten Regular';
   src: url('/fonts/Foglihten-Regular.otf') format('opentype');
   font-weight: normal;
@@ -292,6 +299,13 @@
 @font-face {
   font-family: 'Libre Caslon';
   src: url('/fonts/Libre-Caslon/LibreCaslonText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fleischman';
+  src: url('/fonts/Fleischman.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
