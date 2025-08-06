@@ -1,5 +1,5 @@
 <!-- Thank You Section -->
-<div class="bg-gray-200 border-x mx-auto max-w-2xl text-black text-center py-10 px-4 md:px-20 font-serif">
+<div class="bg-gray-200 mx-auto max-w-2xl text-black text-center py-10 px-4 md:px-20 font-serif border-x border-black">
   <!-- Top & Title -->
   <div class="border-t-4 border-black mb-0.5"></div>
     <div class="border-t-3 border-black mb-1"></div>

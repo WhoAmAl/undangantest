@@ -3,22 +3,21 @@
     <!-- Judul -->
     <div class="border-t-4 border-black mb-0.5"></div>
     <div class="border-t-3 border-black mb-1"></div>
-    <h2 class="text-4xl font-bold tracking-widest">LOCATION & RSVP</h2>
+    <h2 class="text-2xl md:text-4xl font-bold tracking-widest">LOCATION & RSVP</h2>
     <div class="border-b-3 border-black mt-1"></div>
     <div class="border-b-4 border-black mt-0.5 mb-6"></div>
 
     <!-- Lokasi dan Alamat -->
     <div class="flex flex-col md:flex-row items-center justify-center md:justify-between gap-6">
       <!-- Peta -->
-      <img src="/maps.png" alt="Map" class="w-full md:w-1/2 h-auto object-cover ml-7" />
+      <img src="/maps.png" alt="Map" class="w-full md:w-1/2 h-auto object-cover md:ml-7" />
 
       <!-- Info Lokasi -->
-      <div class="mr-7 text-left md:text-center md:w-1/2 space-y-4">
+      <div class="md:mr-7 text-center md:w-1/2 space-y-4">
         <h3 class="text-lg font-semibold">Grand Plaza Hotel</h3>
         <div class="border-t border-black w-2/3 mx-auto"></div>
         <p class="italic text-sm leading-snug">
-          Jendral Sudirman street Kav 52–53,<br />
-          Kebayoran Baru, Senayan, Jakarta
+          Jendral Sudirman street Kav 52-53, Kebayoran Baru, Senayan, Jakarta
         </p>
         <div class="text-center">
           <a href="#" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 bg-black text-white rounded-2xl text-sm shadow">
@@ -41,7 +40,7 @@
     </p>
 
     <!-- Tombol RSVP kiri -->
-    <div class="text-left ml-8 mt-4">
+    <div class="md:text-left md:ml-8 md:mt-4">
         <a href="#" class="px-6 py-2 bg-black text-white rounded-2xl shadow text-sm">
             Send RSVP
         </a>

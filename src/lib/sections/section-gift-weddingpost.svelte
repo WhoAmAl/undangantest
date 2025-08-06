@@ -38,17 +38,17 @@
   <!-- Title -->
     <div class="border-t-4 border-black mb-0.5"></div>
     <div class="border-t-3 border-black mb-1"></div>
-    <h2 class="text-4xl font-bold tracking-widest m-2">GIFT AND WISH</h2>
+    <h2 class="text-3xl md:text-4xl font-bold tracking-widest m-2">GIFT AND WISH</h2>
     <div class="border-t-3 border-black mb-0.5"></div>
     <div class="border-t-4 border-black mb-1"></div>
 
   <!-- Subtext -->
-  <p class="italic text-gray-700">
+  <p class="italic text-gray-700 mt-6 md:mt-10 text-left">
     If you would like to give a gift as a symbol of blessing and support for our household journey, some of the following options may be helpful
   </p>
 
   <!-- Gift Options -->
-  <div class="grid grid-cols-1 md:grid-cols-2 divide-x divide-black border-t border-b border-black py-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 md:divide-x divide-black border-t border-b border-black py-6">
     <!-- Cashless -->
     <div class="space-y-6">
       <h2 class="text-xl font-medium">Cashless</h2>

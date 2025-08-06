@@ -32,10 +32,10 @@
       <div class="px-6 text-center space-y-3">
         <h3 class="text-xl font-semibold">Wedding Party</h3>
         <img src="/iconglass.png" alt="Glass Icon" class="w-12 h-12 mx-auto" />
-        <p>Saturday, 05 July 2027<br><em>Pukul : 11:00–17:00</em></p>
+        <p>Saturday, 05 July 2027<br><em>Pukul : 11:00-17:00</em></p>
         <h4 class="text-base font-semibold mt-6 tracking-wide">GRAND PLAZA HOTEL</h4>
         <p class="italic text-sm leading-snug">
-          Jendral Sudirman street Kav 52–53,<br />
+          Jendral Sudirman street Kav 52-53,<br />
           Kebayoran Baru, Senayan, Jakarta
         </p>
         <a href="#" target="_blank" class="inline-flex items-center gap-2 mt-10 px-4 py-2 bg-white text-black rounded-xl text-sm shadow">
@@ -47,8 +47,8 @@
         </a>
       </div>
     </div>
-    <div class="border-b-3 border-black mt-8"></div>
-    <div class="border-b-4 border-black mt-0.5 mb-15"></div>
+    <div class="border-b-3 border-black mt-8 hidden md:block"></div>
+    <div class="border-b-4 border-black mt-0.5 mb-15 hidden md:block"></div>
   
 </div>
 </main>

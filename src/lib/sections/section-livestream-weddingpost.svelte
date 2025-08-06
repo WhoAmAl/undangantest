@@ -13,7 +13,7 @@
   };
 </script>
 
-<div class="bg-gray-200 max-w-2xl mx-auto px-4 py-10 font-serif border-x text-gray-900">
+<div class="bg-gray-200 max-w-2xl mx-auto px-4 py-10 font-serif border-x border-black text-gray-900">
   <!-- Title -->
     <div class="border-t-4 border-black mb-0.5"></div>
     <div class="border-t-3 border-black mb-1"></div>
@@ -37,7 +37,7 @@
     </div>
 
     <!-- Right: Content -->
-    <div class="flex flex-col items-center border-l-3 border-black pl-6 space-y-8 pt-15">
+    <div class="flex flex-col items-center md:border-l-3 border-black md:pl-6 space-y-8 pt-15">
         <!-- Instagram -->
         <div class="flex flex-col items-center space-y-2">
             <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="w-8 h-8" alt="Instagram" />

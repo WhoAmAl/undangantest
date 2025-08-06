@@ -20,7 +20,7 @@
     <div class="border-b-4 border-black mt-0.5 mb-6"></div>
 
     <!-- Baris nama tamu -->
-    <div class="flex justify-between text-sm mt-2 mb-4 px-30">
+    <div class="flex justify-between text-sm mt-2 mb-4 px-1 md:px-30">
       <span>Dear</span>
       <span>Alan and Partner</span>
     </div>
