@@ -50,12 +50,34 @@
     color: #365314;
     transition: color 0.9s cubic-bezier(0,0,0,0);
   }
+
+  .landing-text-group {
+      opacity: 0;
+      transform: translateY(-60px);
+      transition: opacity 0.8s cubic-bezier(0,0,0,0), transform 0.8s cubic-bezier(0,0,0,0);
+      pointer-events: none;
+  }
+  .landing-text-group.slide-down {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+  }
 </style>
 
 <div class="bg-gray-50 mx-auto max-w-2xl min-h-screen relative" style="background-image: url(/landingelegantlime.png); background-size: cover; background-position: center; bg-repeat: no-repeat;">
+    <!-- konten sub-layer -->
+    <div class="absolute mt-20 left-0 w-full flex flex-col items-center z-0 pointer-events-none">
+        <div class="text-center">
+            <div class="font-serif text-4xl md:text-5xl text-lime-950 mb-5">Hinata and Naruto</div>
+            <div class="font-bold text-2xl text-lime-950 mb-9">23.07.2025</div>
+            <div class="font-serif text-xl text-neutral-50 px-35">
+                Please join our special day we're happy if you can attend our day !
+            </div>
+        </div>
+    </div>
     <!-- layer svg inverted rounded + konten judul ikut scroll -->
     <div class="relative w-full max-w-2xl mx-auto svg-scroll {scrolled ? 'svg-scrolled' : ''}">
-        <div class="absolute top-0 left-0 w-full flex flex-col items-center justify-center pt-16 z-20 pointer-events-none">
+        <div class="absolute top-0 left-0 w-full flex flex-col items-center justify-center pt-16 z-30 pointer-events-none">
             <div class="text-center">
                 <div class="text-xl text-lime-950 tracking-wide mb-0">THE</div>
                 <div class="text-3xl text-lime-950 tracking-wide mb-13">WEDDING</div>
@@ -63,7 +85,7 @@
             </div>
         </div>
         <svg
-            class="w-full h-auto z-10"
+            class="w-full h-auto z-20"
             viewBox="0 0 672 614"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

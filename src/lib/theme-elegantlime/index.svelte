@@ -12,7 +12,7 @@
     import Gallery from '$lib/sections/section-gallery-elegantlime.svelte';
     import Thanks from '$lib/sections/section-thanks-elegantlime.svelte';
 </script>
-
+<main class="max-w-2xl mx-auto bg-neutral-50 relative">
 <Opening />
 <Quote />
 <Bride/>
@@ -25,3 +25,4 @@
 <Dresscode />
 <Gallery />
 <Thanks />
+</main>
