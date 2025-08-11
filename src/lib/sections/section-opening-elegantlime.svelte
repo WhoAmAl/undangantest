@@ -1,17 +1,127 @@
-<div class="bg-black mx-auto max-w-2xl min-h-[580px] md:min-h-[1060px] mb-5 relative flex flex-col justify-center rounded-b-[350px] bg-[position:top] md:bg-[position:center]" style="background-image: url(/landingelegantlime.png); background-size: contain; background-repeat: no-repeat; background-attachment: fixed; font-family: 'Libre Caslon', serif;">
-  <!-- konten sub-layer -->
-    <div class="absolute mt-8 md:mt-18 top-0 w-full flex flex-col items-center z-0 pointer-events-none">
+<script>
+  import { onMount } from 'svelte';
+  let scrolled = false;
+  onMount(() => {
+    setTimeout(() => {
+      scrolled = true;
+    }, 100);
+  });
+</script>
+
+<style>
+
+  .svg-scroll {
+    transition: transform 0.9s cubic-bezier(0,0,0,0);
+    will-change: transform;
+  }
+  .svg-scrolled {
+    transform: translateY(-700px);
+  }
+  .frame-scroll {
+    transition: transform 0.9s cubic-bezier(0,0,0,0);
+    will-change: transform;
+  }
+  .frame-scrolled {
+    transform: translateY(-880px);
+  }
+  .dear-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2.5rem;
+    text-align: right;
+    z-index: 30;
+    width: auto;
+    transition: all 0.9s cubic-bezier(0,0,0,0);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .dear-container.centered {
+    left: 50%;
+    bottom: 0;
+    right: auto;
+    transform: translateX(-50%);
+    align-items: center;
+    text-align: center;
+  }
+  .dear-text.gray {
+    color: #f9fafb;
+    transition: color 0.9s cubic-bezier(0,0,0,0);
+    }
+  .dear-text.lime {
+    color: #365314;
+    transition: color 0.9s cubic-bezier(0,0,0,0);
+  }
+
+  .landing-text-group {
+      opacity: 0;
+      transform: translateY(-60px);
+      transition: opacity 0.8s cubic-bezier(0,0,0,0), transform 0.8s cubic-bezier(0,0,0,0);
+      pointer-events: none;
+  }
+  .landing-text-group.slide-down {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+  }
+</style>
+
+<div class="bg-gray-50 mx-auto max-w-2xl min-h-screen relative" style="background-image: url(/landingelegantlime.png); background-size: contain; background-attachment: fixed; background-position: center; bg-repeat: no-repeat;">
+    <!-- konten sub-layer -->
+    <div class="absolute mt-20 left-0 w-full flex flex-col items-center z-0 pointer-events-none">
         <div class="text-center">
-            <div class="font-serif text-4xl md:text-5xl text-lime-950 mb-2 md:mb-5" style="font-family: 'Rouge Script', serif;">Hinata and Naruto</div>
-            <div class="font-bold text-base md:text-2xl text-lime-950 mb-3 md:mb-7">23.07.2025</div>
-            <div class="font-serif text-base md:text-xl text-gray-50 px-18 md:px-35">
-                Please join our special day were happy if you can attend our day !
+            <div class="font-serif text-4xl md:text-5xl text-lime-950 mb-5" style="font-family: 'Rouge Script', serif;">Hinata and Naruto</div>
+            <div class="font-bold text-2xl text-lime-950 mb-9" style="font-family: 'Libre Caslon', serif;">23.07.2025</div>
+            <div class="font-serif text-xl text-neutral-50 px-35" style="font-family: 'Libre Caslon', serif;">
+                Please join our special day we're happy if you can attend our day !
             </div>
         </div>
     </div>
 
+    <!-- layer svg inverted rounded + konten judul ikut scroll -->
+    <div class="relative w-full max-w-2xl mx-auto svg-scroll {scrolled ? 'svg-scrolled' : ''}">
+        <div class="absolute top-0 left-0 w-full flex flex-col items-center justify-center pt-16 z-30 pointer-events-none">
+            <div class="text-center">
+     <div class="text-[14px] md:text-xl text-lime-950 tracking-wide mb-0" style="font-family: 'Libre Caslon', serif;">THE</div>
+     <div class="text-[23px] md:text-3xl text-lime-950 tracking-wide font-semibold mb-3 md:mb-8" style="font-family: 'Libre Caslon', serif;">WEDDING</div>
+     <div class="text-[28px] md:text-5xl text-lime-950" style="font-family: 'Rouge Script', serif;">Naruto &amp; Hinata</div>
+            </div>
+        </div>
+        <svg
+            class="w-full h-auto z-20"
+            viewBox="0 0 672 614"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="pointer-events: none; display: block;"
+        >
+            <path
+                d="M672 614H671.954C671.984 612.17 672 610.337 672 608.5C672 423.208 521.568 273 336 273C150.432 273 0 423.208 0 608.5C0 610.337 0.0164441 612.17 0.0458984 614H0V0H672V614Z"
+                fill="#FAFAFA"
+            />
+        </svg>
+
+        <!-- layer svg bawah -->
+        <svg
+            class="w-full h-auto translate-y-365 md:translate-y-380 svg-scroll {scrolled ? 'svg-scrolled' : ''}"
+            viewBox="0 0 672 473"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="pointer-events: none;"
+        >
+            <path
+                d="M672 0C672 185.568 521.568 336 336 336C150.432 336 0 185.568 0 0V473H672V0Z"
+                fill="#FAFAFA"
+            />
+        </svg>
+    </div>
+    <div class="dear-container {scrolled ? 'centered' : ''}">
+        <div class="dear-text text-lg leading-tight {scrolled ? 'lime' : 'gray'}">Dear</div>
+        <div class="dear-text text-xl font-serif leading-tight {scrolled ? 'lime' : 'gray'}">Alan and Partner</div>
+    </div>
+
     <!-- FRAME FOTO -->
-    <div class="relative flex items-center justify-center w-full h-[350px] md:h-[620px] mt-[125px]">
+  <div class="absolute left-1/2 top-1/2 -translate-x-1/2 translate-y-[600px] w-full h-[350px] md:h-[620px] flex items-center justify-center  frame-scroll {scrolled ? 'frame-scrolled' : ''}">
       <!-- MAIN FRAME SVG -->
       <svg
         class="w-full h-full max-w-lg max-h-[650px]"
@@ -80,12 +190,6 @@
         </div>
       </svg>
     </div>
+
+  <!-- tombol dihapus, animasi otomatis -->
 </div>
-<!-- footer content -->
-<div class="relative left-0 bottom-0 w-full flex flex-col items-center z-20">
-  <div class="text-lime-950 text-center">
-    <div class="text-[12px] md:text-lg">Dear</div>
-    <div class="text-[16px] md:text-xl">Alan and Partner</div>
-  </div>
-</div>
-<style></style>

@@ -1,0 +1,4 @@
+<div class="bg-fuchsia-100 text-fuchsia-900 items-center justify-center py-8 md:py-16 px-10">
+    <h1 class="text-2xl md:text-4xl text-center mb-2 md:mb-6" style="font-family: 'Oleo Script Swash Regulars', cursive;">Matius 19:5-6</h1>
+    <p class="text-[12px] md:text-[23px] text-center" style="font-family: 'Gentium Plus Regular', cursive;">Sebab itu laki-laki akan meninggalkan ayah dan ibunya dan bersatu dengan isterinya, sehingga keduanya itu menjadi satu daging. Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia.</p>
+</div>

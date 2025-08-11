@@ -323,3 +323,69 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Uchen Regular';
+  src: url('/fonts/Uchen-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oleo Script Regular';
+  src: url('/fonts/Oleo-Script/OleoScript-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oleo Script Bold';
+  src: url('/fonts/Oleo-Script/OleoScript-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oleo Script Swash Regular';
+  src: url('fonts/Oleo-Script-Swash-Caps/OleoScriptSwashCaps-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oleo Script Swash Regulars';
+  src: url('fonts/Oleo-Script-Swash-Caps/OleoScriptSwashCaps-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oleo Script Swash Bold';
+  src: url('/fonts/Oleo-Script-Swash-Caps/OleoScriptSwashCaps-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gentium Plus Regular';
+  src: url('/fonts/Gentium-Plus/GentiumPlus-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gentium Plus Bold';
+  src: url('/fonts/Gentium-Plus/GentiumPlus-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gentium Plus Italic';
+  src: url('/fonts/Gentium-Plus/GentiumPlus-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gentium Plus Bold Italic';
+  src: url('/fonts/Gentium-Plus/GentiumPlus-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
