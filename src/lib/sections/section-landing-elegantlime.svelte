@@ -28,7 +28,7 @@
         </svg>
   </button>
 
-  <div class="bottom-0 right-0 absolute text-right pb-9 pr-8 text-gray-50">
+  <div class="bottom-0 right-0 absolute text-right pb-9 pr-8 lg:pr-26 xl:pr-8 text-gray-50">
       <div class="text-[12px] md:text-lg" style="font-family: 'Libre Caslon', serif;">Dear</div>
       <div class="text-[14px] md:text-xl" style="font-family: 'Libre Caslon', serif;">Alan and Partner</div>
   </div>

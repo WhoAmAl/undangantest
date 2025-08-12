@@ -23,12 +23,12 @@
   </defs>
 </svg>
 
-<div class="relative min-h-screen bg-[#042F2E] flex flex-col max-w-2xl mx-auto">
+<div class="relative min-h-screen lg:min-h-[200vh] xl:min-h-screen bg-[#042F2E] flex flex-col max-w-2xl mx-auto">
   <div class="absolute top-0 left-0 w-full" style="z-index:1;">
     <img
       src="/coveremerald.jpg"
       alt="Wedding Couple"
-      class="object-cover w-full max-h-[450px] sm:max-h-[800px] sm:max-w-[100%]"
+      class="object-cover w-full max-h-[450px] lg:max-h-[550px] lg:min-h-250 xl:min-h-200 xl:max-h-[800px] sm:max-w-[100%]"
       style="clip-path: url(#cover-clip); object-position: top;"
       draggable="false"
     />

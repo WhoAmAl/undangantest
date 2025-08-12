@@ -1,7 +1,7 @@
 <div class="relative flex flex-col items-center justify-center bg-neutral-50 my-5">
 	<div class="w-full h-full relative flex flex-col items-center justify-center">
 		<!-- Top floral border -->
-		<img src="/bungalivestreambotanic.png" alt="Top Floral" class="absolute top-0 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-none z-10 select-none pointer-events-none" draggable="false" />
+		<img src="/bungalivestreambotanic.png" alt="Top Floral" class="absolute top-0 left-1/2 -translate-x-1/2 w-[95%] -translate-y-0 lg:-translate-y-15 xl:-translate-y-0 xl:w-[90%] max-w-none z-10 select-none pointer-events-none" draggable="false" />
 
 		<!-- Content area -->
 				<div class="mt-[90px] mb-[90px] w-full max-w-lg bg-fuchsia-100 rounded-2xl shadow-none min-h-[65vh] flex flex-col items-center justify-center px-6 py-12 relative z-5">
@@ -32,6 +32,6 @@
 				</div>
 
 		<!-- Bottom floral border -->
-		<img src="/bungalivestreambotanic.png" alt="Bottom Floral" class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-none z-10 select-none pointer-events-none" draggable="false" />
+		<img src="/bungalivestreambotanic.png" alt="Bottom Floral" class="absolute bottom-0 left-1/2 -translate-y-0 lg:translate-y-14 xl:-translate-y-0 -translate-x-1/2 w-[95%] md:w-[90%] max-w-none z-10 select-none pointer-events-none" draggable="false" />
 	</div>
 </div>

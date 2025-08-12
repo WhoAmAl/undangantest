@@ -4,15 +4,15 @@
   }
 </script>
 
-<div class="relative max-w-2xl mx-auto w-full min-h-screen flex flex-col justify-between items-center bg-[#9D174D]" on:click={handleRedirect}>
+<div class="relative max-w-2xl mx-auto w-full min-h-screen lg:min-h-[200vh] xl:min-h-screen flex flex-col justify-between items-center bg-[#9D174D]" on:click={handleRedirect}>
   <!-- Header -->
-  <div class="w-full pt-4 md:pt-8 pb-4 text-center">
+  <div class="w-full pt-4 lg:pt-35 xl:pt-8 xl:pb-4 text-center">
     <h1 class="text-gray-50 text-xl md:text-4xl font-serif italic tracking-wide">We're Getting Married</h1>
   </div>
 
   <!-- Main Image + Date Bar Overlay -->
   <div class="relative flex-1 w-full flex justify-center items-center">
-    <img src="/coverpinkcherish.jpg" alt="Wedding Couple" class="object-cover w-full max-h-[72vh] md:max-h-[80vh] rounded-none shadow-lg" />
+    <img src="/coverpinkcherish.jpg" alt="Wedding Couple" class="object-cover w-full max-h-[72vh] md:max-h-[80vh] lg:max-h-[180vh] xl:max-h-[80vh] rounded-none shadow-lg" />
     <!-- Date Bar Overlay -->
     <div class="absolute bottom-2 left-0 w-full flex justify-center items-center py-1 md:py-2 bg-[#FECACA] bg-opacity-95">
       <span class="text-[#0A0A0A] text-[13px] md:text-xl font-serif italic">12 July 2025</span>

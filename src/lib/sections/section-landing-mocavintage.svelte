@@ -4,7 +4,7 @@
   }
 </script>
 
-<div class="bg-orange-100 min-h-screen max-w-2xl mx-auto flex items-center justify-center relative overflow-hidden" style="font-family: serif;">
+<div class="bg-orange-100 min-h-screen lg:min-h-[165vh] xl:min-h-screen max-w-2xl mx-auto flex items-center justify-center relative overflow-hidden" style="font-family: serif;">
   <img src="/landingmocavintage.png" alt="" class="absolute inset-0 w-full h-full object-cover max-h-[580px] md:max-h-[1024px] pb-12 rounded-b-[18%] md:rounded-b-[145px] z-0 select-none pointer-events-none" draggable="false">
   <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-between items-center z-10">
     <div class="w-full flex flex-col items-center pt-8">

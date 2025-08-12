@@ -1,5 +1,28 @@
 <script lang="ts">
   import * as Carousel from "$lib/components/ui/carousel/index.js";
+
+  import type { CarouselAPI } from "$lib/components/ui/carousel/context.js";
+    let carouselapi = $state<CarouselAPI>();
+    let current = $state(0);
+    $effect(() => {
+    if (carouselapi) {
+        current = carouselapi.selectedScrollSnap() + 1;
+        carouselapi.on("select", () => {
+            current = carouselapi!.selectedScrollSnap() + 1;
+        });
+        }
+    });
+
+    function handleCarouselAPI (api: any) {
+        carouselapi = api;
+        if( !carouselapi ) {
+            return; 
+        }
+        carouselapi.on("select", () => {
+            current = carouselapi!.selectedScrollSnap();
+        });
+        current = carouselapi.selectedScrollSnap();
+    }
 </script>
 
 <div class="relative flex flex-col" style="background-image: url('/backgroundthanksbotanic.png'); background-size: cover; background-repeat: no-repeat;">
@@ -35,5 +58,19 @@
                 </Carousel.Content>
             </Carousel.Root>
 		</div>
+
+		  <!-- Dot Pagination -->
+  <div class="flex justify-center gap-2 md:gap-3 mt-8 md:mt-2 mb-10">
+      {#each Array(5) as _, index}
+          <button
+              class="w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition-all duration-300 focus:outline-none focus:ring-2
+                  {index === current - 1
+                      ? 'bg-lime-800 scale-110'
+                      : 'bg-yellow-950 hover:bg-gray-800 hover:scale-105'}"
+              onclick={() => carouselapi && carouselapi.scrollTo(index)}
+              aria-label={`Go to story ${index + 1}`}
+          ></button>
+      {/each}
+  </div>
 	</div>
 </div>
