@@ -389,3 +389,72 @@
   font-weight: 700;
   font-style: italic;
 }
+
+@font-face {
+  font-family: 'Jomolhari';
+  src: url('/fonts/Jomolhari-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Baskervville';
+  src: url('/fonts/Baskervville/Baskervville-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville Bold';
+  src: url('/fonts/Baskervville/Baskervville-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Baskervville Bold Italic';
+  src: url('/fonts/Baskervville/Baskervville-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Baskervville Italic';
+  src: url('/fonts/Baskervville/Baskervville-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Baskervville Medium';
+  src: url('/fonts/Baskervville/Baskervville-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville Medium Italic';
+  src: url('/fonts/Baskervville/Baskervville-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Baskervville Regular';
+  src: url('/fonts/Baskervville/Baskervville-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville Semi Bold';
+  src: url('/fonts/Baskervville/Baskervville-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville Semi Bold Italic';
+  src: url('/fonts/Baskervville/Baskervville-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}

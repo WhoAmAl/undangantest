@@ -1,4 +1,5 @@
 <script>
+  import Landingpageretroclassic from '$lib/theme-retroclassic/landingpage.svelte';
   import Landingpagebotanical from '$lib/theme-botanical/landingpage.svelte';
   import Landingpageelegantlime from '$lib/theme-elegantlime/landingpage.svelte';
   import Landingpagemocavintage from '$lib/theme-mocavintage/landingpage.svelte';
@@ -12,6 +13,7 @@
 </script>
 
 <main class="max-w-2xl mx-auto relative">
+  <Landingpageretroclassic />
   <Landingpagebotanical />
   <Landingpageelegantlime />
   <Landingpagemocavintage />
