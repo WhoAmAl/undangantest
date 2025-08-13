@@ -2,6 +2,6 @@
     import LandingPage from '../sections/section-landing-emerald.svelte';
 </script>
 
-<main>
+<main id="emerald">
     <LandingPage />
 </main>

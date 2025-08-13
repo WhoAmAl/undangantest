@@ -2,6 +2,6 @@
     import LandingPage from '../sections/section-landing-pinkmarble.svelte';
 </script>
 
-<main>
+<main id="pinkmarble">
     <LandingPage />
 </main>

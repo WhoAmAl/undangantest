@@ -1,27 +1,19 @@
-<script>
-  import Landingpageretroclassic from '$lib/theme-retroclassic/landingpage.svelte';
-  import Landingpagebotanical from '$lib/theme-botanical/landingpage.svelte';
-  import Landingpageelegantlime from '$lib/theme-elegantlime/landingpage.svelte';
-  import Landingpagemocavintage from '$lib/theme-mocavintage/landingpage.svelte';
-  import Landingpageemerald from '$lib/theme-emerald/landingpage.svelte'; 
-	import Landingpagepinkmarble from '$lib/theme-pinkmarble/landingpage.svelte';
-  import Landingpageweddingpost from '$lib/theme-weddingpost/landingpage.svelte';
-  import Landingpagevioletvintage from '$lib/theme-violetvintage/landingpage.svelte';
-  import Landingpagemaroonclassic from '$lib/theme-maroonclassic/landingpage.svelte';
-  import Landingpageroyalmidnight from '$lib/theme-royalmidnight/landingpage.svelte';
-  import Landingpagepinkcherish from '$lib/theme-pinkcherish/landingpage.svelte';
+<script lang="ts">
+  import Sidebar from '$lib/components/ui/sidebar/sidebar.svelte';
+  import { landingpages } from '$lib/landingpages.js';
+
+  let components: any[] = [];
+  Promise.all(landingpages.map(lp => lp.component().then(mod => mod.default)))
+    .then(arr => components = arr);
 </script>
 
-<main class="max-w-2xl mx-auto relative">
-  <Landingpageretroclassic />
-  <Landingpagebotanical />
-  <Landingpageelegantlime />
-  <Landingpagemocavintage />
-  <Landingpageemerald />
-  <Landingpagepinkcherish />
-  <Landingpageroyalmidnight />
-  <Landingpagemaroonclassic />
-  <Landingpagevioletvintage />
-  <Landingpagepinkmarble />
-  <Landingpageweddingpost />
+<main class="flex min-h-screen">
+  <Sidebar />
+  <div class="flex flex-1 items-center justify-center">
+    <div class="max-w-2xl w-full">
+      {#each components as Comp, i}
+        <svelte:component this={Comp} />
+      {/each}
+    </div>
+  </div>
 </main>

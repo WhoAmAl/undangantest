@@ -2,6 +2,6 @@
     import LandingPage from '../sections/section-landing-mocavintage.svelte';
 </script>
 
-<main>
+<main id="mocavintage">
     <LandingPage />
 </main>

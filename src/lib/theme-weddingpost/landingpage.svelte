@@ -2,6 +2,6 @@
     import LandingPage from '../sections/section-landing-weddingpost.svelte';
 </script>
 
-<main>
+<main id="weddingpost">
     <LandingPage />
 </main>

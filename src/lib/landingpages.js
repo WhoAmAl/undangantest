@@ -1,0 +1,13 @@
+export const landingpages = [
+  { name: "Retro Classic", id: "retroclassic", component: () => import('$lib/theme-retroclassic/landingpage.svelte') },
+  { name: "Botanical", id: "botanical", component: () => import('$lib/theme-botanical/landingpage.svelte') },
+  { name: "Elegant Lime", id: "elegantlime", component: () => import('$lib/theme-elegantlime/landingpage.svelte') },
+  { name: "Moca Vintage", id: "mocavintage", component: () => import('$lib/theme-mocavintage/landingpage.svelte') },
+  { name: "Emerald", id: "emerald", component: () => import('$lib/theme-emerald/landingpage.svelte') },
+  { name: "Pink Cherish", id: "pinkcherish", component: () => import('$lib/theme-pinkcherish/landingpage.svelte') },
+  { name: "Royal Midnight", id: "royalmidnight", component: () => import('$lib/theme-royalmidnight/landingpage.svelte') },
+  { name: "Maroon Classic", id: "maroonclassic", component: () => import('$lib/theme-maroonclassic/landingpage.svelte') },
+  { name: "Violet Vintage", id: "violetvintage", component: () => import('$lib/theme-violetvintage/landingpage.svelte') },
+  { name: "Pink Marble", id: "pinkmarble", component: () => import('$lib/theme-pinkmarble/landingpage.svelte') },
+  { name: "Wedding Post", id: "weddingpost", component: () => import('$lib/theme-weddingpost/landingpage.svelte') },
+];

@@ -2,6 +2,6 @@
     import LandingPage from '../sections/section-landing-maroonclassic.svelte';
 </script>
 
-<main>
+<main id="maroonclassic">
     <LandingPage />
 </main>
