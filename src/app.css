@@ -4,8 +4,9 @@
 @import 'tw-animate-css';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
-
 @custom-variant dark (&:is(.dark *));
+
+@config "../tailwind.config.ts";
 
 :root {
 	--radius: 0.625rem;
@@ -458,3 +459,119 @@
   font-weight: 600;
   font-style: italic;
 }
+
+/* Cormorant Garamond Font Family */
+@font-face {
+  font-family: 'Cormorant Garamond Light';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Light Italic';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Regular';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Italic';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Medium';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Medium Italic';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond SemiBold';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond SemiBold Italic';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Bold';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Bold Italic';
+  src: url('/fonts/Cormorant-Garamond/CormorantGaramond-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Tangerine Font Family */
+@font-face {
+  font-family: 'Tangerine Regular';
+  src: url('/fonts/Tangerine/Tangerine-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tangerine Bold';
+  src: url('/fonts/Tangerine/Tangerine-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Cinzel Decorative Font Family */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  src: url('/fonts/Cinzel-Decorative/CinzelDecorative-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cinzel Decorative Regular';
+  src: url('/fonts/Cinzel-Decorative/CinzelDecorative-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cinzel Decorative Bold';
+  src: url('/fonts/Cinzel-Decorative/CinzelDecorative-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cinzel Decorative Black';
+  src: url('/fonts/Cinzel-Decorative/CinzelDecorative-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+

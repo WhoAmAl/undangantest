@@ -23,8 +23,8 @@
         </div>
         <!-- dont use -->
          <div class="flex flex-col items-center px-4 md:px-7 lg:px-10 w-full mb-8">
-            <span class="text-neutral-50 text-xl font-medium mb-4">Don't Use</span>
-            <div class="flex flex-wrap justify-center gap-4 mb-13">
+            <span class="text-neutral-50 text-xl font-medium mb-4" style="font-family: 'Baskervville', serif;">Don't Use</span>
+            <div class="flex flex-wrap justify-center gap-4 mb-13" style="font-family: 'Baskervville', serif;">
                 <span class="bg-neutral-50 text-neutral-950 px-6 py-0.5 md:py-2 rounded-full text-base">Pakaian berwarna Gold</span>
                 <span class="bg-neutral-50 text-neutral-950 px-6 py-0.5 md:py-2 rounded-full text-base">Kaos Oblong</span>
                 <span class="bg-neutral-50 text-neutral-950 px-6 py-0.5 md:py-2 rounded-full text-base">Short Pants</span>

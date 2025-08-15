@@ -8,7 +8,7 @@
         <div class="flex items-center mb-6 pb-5 border-b border-gray-200 w-full px-8">
             <a href="#top" class="mr-2 text-2xl font-semibold flex items-center cursor-pointer">Sendvitation</a>
         </div>
-        <ScrollArea class="w-full h-100 pb-7 border-b border-gray-200">
+        <ScrollArea class="w-full h-90 pb-7 border-b border-gray-200">
             <ul class="space-y-1 px-8">
                 {#each landingpages as lp, i}
                     <li>

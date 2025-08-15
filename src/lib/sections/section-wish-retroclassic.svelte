@@ -48,8 +48,8 @@
             </form>
         </div>
         <!-- Wishes List -->
-         <div class="bg-neutral-700/70 w-full px-8 p-8 mb-10">
-            <h3 class="text-neutral-50 text-base md:text-lg mb-3">Give us your best wish for our wedding</h3>
+        <div class="bg-neutral-700/70 w-full px-8 p-8 mb-10">
+            <h3 class="text-neutral-50 text-base md:text-lg mb-3" style="font-family: 'Baskervville', serif;">Give us your best wish for our wedding</h3>
             <ScrollArea class="h-75 md:h-100 w-full rounded-md" orientation="both">
                 {#each wishes as wish}
                 <div class="mb-4 md:mb-8 text-left">

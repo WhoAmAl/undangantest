@@ -1,10 +1,15 @@
 <script lang="ts">
   import Sidebar from '$lib/components/ui/sidebar/sidebar.svelte';
   import { landingpages } from '$lib/landingpages.js';
+  import { onMount } from 'svelte';
 
   let components: any[] = [];
-  Promise.all(landingpages.map(lp => lp.component().then(mod => mod.default)))
-    .then(arr => components = arr);
+
+  onMount(async () => {
+    components = await Promise.all(
+      landingpages.map(lp => lp.component().then(mod => mod.default))
+    );
+  });
 </script>
 
 <main class="flex min-h-screen">

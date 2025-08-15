@@ -16,25 +16,25 @@
             <div class="border-b-3 border-neutral-50 w-full mb-2">
                 <span class="text-[14px] sm:text-xl md:text-2xl">WEDDING CEREMONY</span>
             </div>
-            <div class="text-[14px] sm:text-lg">Saturday, 16 August 2025</div>
-            <div class="text-[14px] sm:text-lg">Pukul 09.00</div>
+            <div class="text-[14px] sm:text-lg" style="font-family: 'Baskervville', serif;">Saturday, 16 August 2025</div>
+            <div class="text-[14px] sm:text-lg" style="font-family: 'Baskervville', serif;">Pukul 09.00</div>
         </div>
         <!-- WEDDING PARTY -->
         <div class="items-start text-left w-1/2">
             <div class="border-b-3 border-neutral-50 w-full mb-2">
                 <span class="text-[14px] sm:text-xl md:text-2xl">WEDDING PARTY</span>
             </div>
-            <div class="text-[14px] sm:text-lg">Saturday, 16 August 2025</div>
-            <div class="text-[14px] sm:text-lg">Pukul 09.00</div>
+            <div class="text-[14px] sm:text-lg" style="font-family: 'Baskervville', serif;">Saturday, 16 August 2025</div>
+            <div class="text-[14px] sm:text-lg" style="font-family: 'Baskervville', serif;">Pukul 09.00</div>
         </div>
         <!-- PLACE -->
         <div class="flex flex-col items-end text-right font-serif w-1/2 ml-auto relative gap-2">
             <div class="border-b-3 border-white w-full mb-2">
                 <span class="text-[14px] sm:text-xl md:text-2xl">GRAND PLAZA HOTEL</span>
             </div>
-            <div class="text-[12px] sm:text-lg mb-2">Jenderal Sudirman Street Kav 52-53, Kebayoran Baru, Senayan, Jakarta</div>
+            <div class="text-[12px] sm:text-lg mb-2" style="font-family: 'Baskervville', serif;">Jenderal Sudirman Street Kav 52-53, Kebayoran Baru, Senayan, Jakarta</div>
             <a href="https://maps.google.com/?q=Grand+Plaza+Hotel+Jenderal+Sudirman+Street+Kav+52-53,+Kebayoran+Baru,+Senayan,+Jakarta" target="_blank" rel="noopener noreferrer"
-                class="flex items-center gap-2 bg-white text-neutral-900 rounded-xl px-3 py-2 shadow hover:bg-neutral-100 transition-all text-sm sm:text-base">
+                class="flex items-center gap-2 bg-white text-neutral-900 rounded-xl px-3 py-2 shadow hover:bg-neutral-100 transition-all text-sm sm:text-base" style="font-family: 'Baskervville', serif;">
                 <img src="/mappinblackskeleton.png" alt="Map Pin" class="w-5 h-5" />
                 Google Maps
             </a>

@@ -22,16 +22,16 @@
                     <!-- Rekening 1 -->
                     <div class="rounded-lg p-5 mb-4 w-full max-w-md flex flex-col items-center shadow-lg">
                         <img src="/creditcardwhiteskeleton.png" alt="Credit Card" width="48" height="48" class="mb-3" />
-                        <div class="text-white text-lg mb-1">BCA a. n Hinata</div>
+                        <div class="text-white text-lg mb-1" style="font-family: 'Baskervville', serif;">BCA a. n Hinata</div>
                         <div class="text-white text-2xl mb-3">123456789</div>
-                        <button class="bg-white text-neutral-900 px-8 py-1.5 rounded-full hover:bg-neutral-200 transition" on:click={() => navigator.clipboard.writeText('123456789')}>Copy to clipboard</button>
+                        <button class="bg-white text-neutral-900 px-8 py-1.5 rounded-full hover:bg-neutral-200 transition" style="font-family: 'Baskervville', serif;" on:click={() => navigator.clipboard.writeText('123456789')}>Copy to clipboard</button>
                     </div>
                     <!-- Rekening 2 -->
                     <div class="rounded-lg p-5 w-full max-w-md flex flex-col items-center shadow-lg">
                         <img src="/creditcardwhiteskeleton.png" alt="Credit Card" width="48" height="48" class="mb-3" />
-                        <div class="text-white text-lg mb-1">BCA a. n Naruto</div>
+                        <div class="text-white text-lg mb-1" style="font-family: 'Baskervville', serif;">BCA a. n Naruto</div>
                         <div class="text-white text-2xl mb-3">123456789</div>
-                        <button class="bg-white text-neutral-900 px-8 py-1.5 rounded-full hover:bg-neutral-200 transition" on:click={() => navigator.clipboard.writeText('123456789')}>Copy to clipboard</button>
+                        <button class="bg-white text-neutral-900 px-8 py-1.5 rounded-full hover:bg-neutral-200 transition" style="font-family: 'Baskervville', serif;" on:click={() => navigator.clipboard.writeText('123456789')}>Copy to clipboard</button>
                     </div>
                 </div>
             <!-- Gift -->
@@ -39,7 +39,7 @@
                 <div class="text-white text-3xl mb-1 sm:mb-4 pt-5 md:pt-0" style="font-family: 'Baskervville', serif;">GIFT</div>
                 <div class="rounded-lg p-5 w-full max-w-md flex flex-col items-center">
                     <div class="text-white text-lg sm:text-2xl text-center px-6 mb-8" style="font-family: 'Baskervville', serif;">Orchid Streat Number 15, West Jakarta</div>
-                    <button class="bg-white text-neutral-900 px-8 py-1.5 rounded-full hover:bg-neutral-200 transition" on:click={() => navigator.clipboard.writeText('Orchid Streat Number 15, West Jakarta')}>Copy address</button>
+                    <button class="bg-white text-neutral-900 px-8 py-1.5 rounded-full hover:bg-neutral-200 transition" style="font-family: 'Baskervville', serif;" on:click={() => navigator.clipboard.writeText('Orchid Streat Number 15, West Jakarta')}>Copy address</button>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
         <div class="bg-neutral-700/70 w-full mt-4 py-4 flex flex-col items-center">
             <div class="text-white text-xl lg:text-2xl mb-1 text-center" style="font-family: 'Baskervville', serif;">GIFT RECOMMENDATION</div>
             <!-- Grid Cards: hanya tampil di sm ke atas -->
-            <div class="hidden sm:flex flex-col sm:flex-row justify-center items-center w-full px-6">
+            <div class="hidden sm:flex flex-col sm:flex-row justify-center items-center w-full px-6" style="font-family: 'Baskervville', serif;">
                 <!-- Card 1 -->
                 <div class="rounded-xl w-64 h-72 flex flex-col items-center justify-between py-6">
                     <div class="flex-1 flex items-center justify-center">

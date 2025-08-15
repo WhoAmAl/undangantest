@@ -16,7 +16,7 @@
         <div class="text-center w-full">
             <span class="block text-gray-50 text-lg md:text-3xl">GRAND PLAZA HOTEL</span>
             <div class="border-t-3 border-gray-50 w-2/3 mx-auto my-2"></div>
-            <span class="block text-gray-50 text-base md:text-2xl mt-2 mb-6">Jenderal Sudirman Street Kav 52-53, Kebayoran Baru, Senayan, Jakarta</span>
+            <span class="block text-gray-50 text-base md:text-2xl mt-2 mb-6" style="font-family: 'Baskervville', serif;">Jenderal Sudirman Street Kav 52-53, Kebayoran Baru, Senayan, Jakarta</span>
         </div>
         <!-- Get Direction Button -->
         <button class="flex items-center gap-2 bg-gray-50 text-neutral-900 rounded-xl px-5 py-1.5 shadow-md mb-6 mt-2 hover:bg-gray-200 text-xs md:text:lg transition-all">

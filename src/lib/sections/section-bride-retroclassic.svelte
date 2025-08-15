@@ -16,7 +16,7 @@
             <div class="text-lg lg:text-2xl mb-2 lg:mb-4">SOCIAL MEDIA :</div>
             <div class="flex items-center justify-center bg-neutral-100 rounded-md lg:rounded-xl px-1 lg:px-2 py-1 lg:py-2 w-fit mx-auto">
                 <img src="/instagramblackskeleton.png" alt="Instagram" class="w-6 h-6 mr-2" />
-                <span class="text-neutral-700 text-xs lg:text-lg">hinata_hyuga</span>
+                <span class="text-neutral-700 text-xs lg:text-lg" style="font-family: 'Baskervville', serif;">hinata_hyuga</span>
             </div>
         </div>
     </div>
