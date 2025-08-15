@@ -56,7 +56,7 @@
 </script>
 
 <div class="bg-neutral-50 flex flex-col justify-center items-center">
-	<h1 class="leading-tight text-2xl md:text-5xl text-yellow-950 p-6" style="font-family: 'Tangerine Regular', serif;">Our Love Story</h1>
+	<h1 class="leading-tight text-3xl md:text-5xl text-yellow-950 p-6" style="font-family: 'Tangerine Regular', serif;">Our Love Story</h1>
     <div class="flex flex-col justify-center items-center py-8 relative w-full" style="background-image: url(/storycleanelegance.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <!-- Overlay untuk menutup background -->
         <div class="absolute inset-0 bg-neutral-100 opacity-40"></div>
@@ -67,7 +67,7 @@
                     <CarouselContent>
                         {#each slides as slide}
                             <CarouselItem>
-                                <div class="text-gray-50 flex flex-col items-center justify-center w-full h-fit min-h-[320px] px-1 md:px-5 md:py-1">
+                                <div class="text-gray-50 flex flex-col items-center justify-center w-full h-fit sm:min-h-[320px] px-1 md:px-5 md:py-1">
                                     <div class="w-full px-5">
                                         <div class="bg-yellow-950 py-2 px-2 text-center w-full">
                                             <span class="text-xl md:text-4xl text-gray-50" style="font-family: 'Tangerine Regular', serif;">{slide.title}</span>

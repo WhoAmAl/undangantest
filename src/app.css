@@ -575,3 +575,104 @@
   font-style: normal;
 }
 
+/* Zilla Slab Font Family */
+@font-face {
+  font-family: 'Zilla Slab Light';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab Light Italic';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Zilla Slab Regular';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab Italic';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Zilla Slab Medium';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab Medium Italic';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Zilla Slab SemiBold';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab SemiBold Italic';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Zilla Slab Bold';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab Bold Italic';
+  src: url('/fonts/Zilla-Slab/ZillaSlab-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Great Vibes Font Family */
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('/fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Great Vibes Regular';
+  src: url('/fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Montaga Font Family */
+@font-face {
+  font-family: 'Montaga';
+  src: url('/fonts/Montaga-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montaga Regular';
+  src: url('/fonts/Montaga-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+

@@ -13,7 +13,7 @@
     <!-- Content Top -->
     <div class="w-full px-8 md:px-12">
         <div class="bg-yellow-950 py-2 md:py-4 px-2 text-center w-full">
-            <span class="text-xl md:text-5xl text-gray-50" style="font-family: 'Tangerine Regular', serif;">Dresscode</span>
+            <span class="text-3xl md:text-5xl text-gray-50" style="font-family: 'Tangerine Regular', serif;">Dresscode</span>
         </div>
     </div>
     <div class="px-8 sm:px-16">
