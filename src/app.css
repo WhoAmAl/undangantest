@@ -676,3 +676,9 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Brittany';
+  src: url('fonts/Brittany.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
