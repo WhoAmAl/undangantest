@@ -1,4 +1,5 @@
 export const landingpages = [
+  { name: "Clean Gray", id: "cleangray", component: () => import('$lib/theme-cleangray/landingpage.svelte') },
   { name: "Classy Gray", id: "classygray", component: () => import('$lib/theme-classygray/landingpage.svelte') },
   { name: "Simple City", id: "simplecity", component: () => import('$lib/theme-simplecity/landingpage.svelte') },
   { name: "Clean Elegance", id: "cleanelegance", component: () => import('$lib/theme-cleanelegance/landingpage.svelte') },

@@ -682,3 +682,40 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Abhaya Font Family */
+
+@font-face {
+  font-family: 'Abhaya Regular';
+  src: url('fonts/Abhaya-Libre/AbhayaLibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Abhaya Medium';
+  src: url('fonts/Abhaya-Libre/AbhayaLibre-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Abhaya Semi Bold';
+  src: url('fonts/Abhaya-Libre/AbhayaLibre-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Abhaya Bold';
+  src: url('fonts/Abhaya-Libre/AbhayaLibre-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Abhaya Extra Bold';
+  src: url('fonts/Abhaya-Libre/AbhayaLibre-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
