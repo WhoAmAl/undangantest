@@ -184,5 +184,4 @@
                 </Carousel.Root>
             </div>
         </div>
-    
 </div>

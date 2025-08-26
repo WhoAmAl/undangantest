@@ -719,3 +719,83 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* HAHMLET FONT FAMILY */
+@font-face {
+  font-family: 'Hahmlet Regular';
+  src: url('fonts/Hahmlet/Hahmlet-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hahmlet Black';
+  src: url('fonts/Hahmlet/Hahmlet-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: black;
+}
+
+@font-face {
+  font-family: 'Hahmlet Bold';
+  src: url('fonts/Hahmlet/Hahmlet-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Hahmlet Extra Bold';
+  src: url('fonts/Hahmlet/Hahmlet-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Hahmlet Extra Light';
+  src: url('fonts/Hahmlet/Hahmlet-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hahmlet Light';
+  src: url('fonts/Hahmlet/Hahmlet-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Hahmlet Medium';
+  src: url('fonts/Hahmlet/Hahmlet-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Hahmlet Semi Bold';
+  src: url('fonts/Hahmlet/Hahmlet-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Hahmlet Thin';
+  src: url('fonts/Hahmlet/Hahmlet-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font Bacasime Antique */
+@font-face {
+  font-family: 'Bacasime Regular';
+  src: url('fonts/BacasimeAntique-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font Thankyou */
+@font-face {
+  font-family: 'Thank You Regular';
+  src: url('fonts/Thankyou.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
