@@ -47,7 +47,7 @@
                     fill="currentColor"
                 />
                 </svg>
-                <div class="text-lime-50 text-base sm:text-lg sm:mb-1" style="font-family: 'Baskervville', serif;">BCA an Sabrina</div>
+                <div class="text-lime-50 text-base sm:text-lg sm:mb-1">BCA an Sabrina</div>
                 <div class="text-lime-50 text-xs sm:text-base mb-2 sm:mb-3">123456789</div>
                 <button class="text-xs sm:text-base bg-lime-50 text-green-900 px-4 sm:px-8 py-1 rounded-full hover:bg-green-900 hover:border hover:border-lime-50 hover:text-lime-50 transition" style="font-family: 'Baskervville', serif;" on:click={() => navigator.clipboard.writeText('123456789')}>Copy to clipboard</button>
             </div>
@@ -58,7 +58,7 @@
                     fill="currentColor"
                 />
                 </svg>
-                <div class="text-lime-50 text-base sm:text-lg sm:mb-1" style="font-family: 'Baskervville', serif;">BNI an Arthur</div>
+                <div class="text-lime-50 text-base sm:text-lg sm:mb-1">BNI an Arthur</div>
                 <div class="text-lime-50 text-xs sm:text-base mb-2 sm:mb-3">123456789</div>
                 <button class="text-xs sm:text-base bg-lime-50 text-green-900 px-4 sm:px-8 py-1 rounded-full hover:bg-green-900 hover:border hover:border-lime-50 hover:text-lime-50 transition" style="font-family: 'Baskervville', serif;" on:click={() => navigator.clipboard.writeText('123456789')}>Copy to clipboard</button>
             </div>

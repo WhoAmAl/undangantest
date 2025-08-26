@@ -1,5 +1,5 @@
 <div class="flex flex-col">
-    <div class="bg-green-900 border border-lime-50 rounded-2xl items-center flex justify-center px-10 py-2 translate-y-7 w-[70%] mx-auto">
+    <div class="bg-green-900 border border-lime-50 rounded-2xl items-center flex justify-center px-10 py-2 translate-y-7 w-[65%] mx-auto">
         <h1 class="uppercase text-center text-xl sm:text-4xl text-lime-50">Thank You</h1>
     </div>
     
