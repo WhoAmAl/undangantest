@@ -1,4 +1,5 @@
 export const landingpages = [
+  { name: "Wall Frame", id: "wallframe", component: () => import('$lib/theme-wallframe/landingpage.svelte') },
   { name: "Natural Green", id: "naturalgreen", component: () => import('$lib/theme-naturalgreen/landingpage.svelte') },
   { name: "Clean Gray", id: "cleangray", component: () => import('$lib/theme-cleangray/landingpage.svelte') },
   { name: "Classy Gray", id: "classygray", component: () => import('$lib/theme-classygray/landingpage.svelte') },

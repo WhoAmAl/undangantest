@@ -799,3 +799,47 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* Font Julius Sans */
+@font-face {
+  font-family: 'Julius Sans Regular';
+  src: url('fonts/JuliusSansOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font Cormorant SC */
+@font-face {
+  font-family: 'Cormorant SC Regular';
+  src: url('fonts/Cormorant-SC/CormorantSC-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC Bold';
+  src: url('fonts/Cormorant-SC/CormorantSC-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC Light';
+  src: url('fonts/Cormorant-SC/CormorantSC-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC Medium';
+  src: url('fonts/Cormorant-SC/CormorantSC-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC SemiBold';
+  src: url('fonts/Cormorant-SC/CormorantSC-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
