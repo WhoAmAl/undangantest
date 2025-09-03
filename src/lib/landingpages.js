@@ -1,4 +1,5 @@
 export const landingpages = [
+  { name: "Sage Flower", id: "sageflower", component: () => import('$lib/theme-sageflower/landingpage.svelte') },
   { name: "Classic Natural", id: "classicnatural", component: () => import('$lib/theme-classicnatural/landingpage.svelte') },
   { name: "Wall Frame", id: "wallframe", component: () => import('$lib/theme-wallframe/landingpage.svelte') },
   { name: "Natural Green", id: "naturalgreen", component: () => import('$lib/theme-naturalgreen/landingpage.svelte') },
