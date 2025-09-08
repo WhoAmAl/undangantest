@@ -1,4 +1,5 @@
 export const landingpages = [
+  { name: "Blue Frame", id: "blueframe", component: () => import('$lib/theme-blueframe/landingpage.svelte') },
   { name: "Sage Flower", id: "sageflower", component: () => import('$lib/theme-sageflower/landingpage.svelte') },
   { name: "Classic Natural", id: "classicnatural", component: () => import('$lib/theme-classicnatural/landingpage.svelte') },
   { name: "Wall Frame", id: "wallframe", component: () => import('$lib/theme-wallframe/landingpage.svelte') },
